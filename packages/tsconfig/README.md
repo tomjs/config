@@ -1,0 +1,47 @@
+# @tomjs/tsconfig
+
+前端项目 [tsconfig](https://www.typescriptlang.org/tsconfig) 配置
+
+## 使用说明
+
+- 安装依赖
+
+```bash
+pnpm add -D @tomjs/tsconfig
+```
+
+- node 项目 修改 `tsconfig.node.json` 配置
+
+```json
+{
+  "extends": "@tomjs/tsconfig/node.json",
+  "compilerOptions": {},
+  "include": []
+}
+```
+
+- vue 项目 修改 `tsconfig.app.json` 配置
+
+```json
+{
+  "extends": "@tomjs/tsconfig/vue.json",
+  "compilerOptions": {},
+  "include": []
+}
+```
+
+- 修改 `tsconfig.json` 配置
+
+```json
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    },
+    {
+      "path": "./tsconfig.app.json"
+    }
+  ]
+}
+```

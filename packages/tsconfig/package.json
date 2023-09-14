@@ -1,0 +1,26 @@
+{
+  "name": "@tomjs/tsconfig",
+  "version": "1.0.0",
+  "description": "typescript config for tomjs",
+  "keywords": [
+    "tsconfig",
+    "typescript",
+    "config"
+  ],
+  "author": {
+    "name": "tom",
+    "email": "tom@tomgao.cc"
+  },
+  "license": "MIT",
+  "files": [
+    "*.json",
+    "*.md"
+  ],
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {},
+  "dependencies": {
+    "@vue/tsconfig": "^0.4.0"
+  }
+}
