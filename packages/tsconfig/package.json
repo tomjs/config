@@ -12,9 +12,6 @@
     "email": "tom@tomgao.cc"
   },
   "license": "MIT",
-  "publishConfig": {
-    "registry": "https://registry.npmjs.com"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/tomgao365/tomjs.git",
