@@ -1,0 +1,32 @@
+{
+  "name": "@tomjs/prettier",
+  "version": "1.0.0",
+  "description": "prettier config for tomjs",
+  "keywords": [
+    "lint",
+    "prettier"
+  ],
+  "author": {
+    "name": "tom",
+    "email": "tom@tomgao.cc"
+  },
+  "license": "MIT",
+  "files": [
+    "es",
+    "lib",
+    "*.md"
+  ],
+  "main": "./lib/index.js",
+  "module": "./es/index.js",
+  "types": "./es/index.d.ts",
+  "scripts": {
+    "build": "npm run clean && vite build",
+    "clean": "rimraf ./es ./lib"
+  },
+  "peerDependencies": {
+    "prettier": ">=3.0.0"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
