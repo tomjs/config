@@ -1,0 +1,86 @@
+diff --git a/dist/write.cjs.dev.js b/dist/write.cjs.dev.js
+index 94c6b7fc0129dbfdad60ed9f135cadbe1f9e844b..ece8eee9e75260503aa5be4f07ce95641f45e8b8 100644
+--- a/dist/write.cjs.dev.js
++++ b/dist/write.cjs.dev.js
+@@ -5,14 +5,15 @@ Object.defineProperty(exports, '__esModule', { value: true });
+ var fs = require('fs-extra');
+ var path = require('path');
+ var prettier = require('prettier');
+-var humanId = require('human-id');
++var lodash = require('lodash');
++var simpleGit = require('simple-git');
+ 
+ function _interopDefault (e) { return e && e.__esModule ? e : { 'default': e }; }
+ 
+ var fs__default = /*#__PURE__*/_interopDefault(fs);
+ var path__default = /*#__PURE__*/_interopDefault(path);
+ var prettier__default = /*#__PURE__*/_interopDefault(prettier);
+-var humanId__default = /*#__PURE__*/_interopDefault(humanId);
++var simpleGit__default = /*#__PURE__*/_interopDefault(simpleGit);
+ 
+ function _defineProperty(obj, key, value) {
+   if (key in obj) {
+@@ -84,28 +85,48 @@ async function writeChangeset(changeset, cwd) {
+   } = changeset;
+   const changesetBase = path__default['default'].resolve(cwd, ".changeset"); // Worth understanding that the ID merely needs to be a unique hash to avoid git conflicts
+   // experimenting with human readable ids to make finding changesets easier
++  // const changesetID = humanId({
++  //   separator: "-",
++  //   capitalize: false,
++  // });
+ 
+-  const changesetID = humanId__default['default']({
+-    separator: "-",
+-    capitalize: false
+-  });
+   const prettierInstance = getPrettierInstance(cwd);
+-  const prettierConfig = await prettierInstance.resolveConfig(cwd);
+-  const newChangesetPath = path__default['default'].resolve(changesetBase, `${changesetID}.md`); // NOTE: The quotation marks in here are really important even though they are
++  const prettierConfig = await prettierInstance.resolveConfig(cwd); // const newChangesetPath = path.resolve(changesetBase, `${changesetID}.md`);
++  // NOTE: The quotation marks in here are really important even though they are
+   // not spec for yaml. This is because package names can contain special
+   // characters that will otherwise break the parsing step
+ 
+-  const changesetContents = `---
+-${releases.map(release => `"${release.name}": ${release.type}`).join("\n")}
+----
++  const git = simpleGit__default['default'](cwd);
++  releases.forEach(async release => {
++    const names = release.name.split("/");
++    const name = names[names.length - 1];
++    const pkg = fs__default['default'].readJsonSync(path__default['default'].join(cwd, "packages", name, "package.json"));
++    let summary = ""; // 检查 tag
+ 
++    const tags = await git.tags();
++    const tag = `${pkg.name}@${pkg.version}`;
++    let params = ["--full-history", "--date-order", "--decorate=full", "--", `packages/${name}`];
++
++    if (tags.all.includes(tag)) {
++      params = [`${tag}..HEAD`].concat(params);
++    }
++
++    const logs = await git.log(params);
++    summary = logs.all.map(s => `- ${s.message}`).join("\n");
++    const newChangesetPath = path__default['default'].resolve(changesetBase, `${lodash.snakeCase(release.name)}.md`);
++    const changesetContents = `---
++"${release.name}": ${release.type}
++---
++    
++${summary ? "Change records" : "No change"}
+ ${summary}
+-  `;
+-  await fs__default['default'].outputFile(newChangesetPath, // Prettier v3 returns a promise
+-  await prettierInstance.format(changesetContents, _objectSpread2(_objectSpread2({}, prettierConfig), {}, {
+-    parser: "markdown"
+-  })));
+-  return changesetID;
++`;
++    await fs__default['default'].outputFile(newChangesetPath, // Prettier v3 returns a promise
++    await prettierInstance.format(changesetContents, _objectSpread2(_objectSpread2({}, prettierConfig), {}, {
++      parser: "markdown"
++    })));
++  });
++  return "temp";
+ }
+ 
+ exports.default = writeChangeset;
