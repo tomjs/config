@@ -1,6 +1,8 @@
 # @tomjs/eslint
 
-前端项目 [eslint](https://zh-hans.eslint.org/) js/ts/vue 代码风格规范配置
+![npm](https://img.shields.io/npm/v/%40tomjs/eslint) ![NPM](https://img.shields.io/npm/l/%40tomjs%2Feslint) ![npm package minimized gzipped size (scoped version select exports)](https://img.shields.io/bundlejs/size/%40tomjs/eslint)
+
+前端项目 [eslint](https://zh-hans.eslint.org/) js/ts/vue 代码风格规范配置。**_主要用于个人学习，不推荐他人生产环境使用_**。
 
 ## 使用说明
 
