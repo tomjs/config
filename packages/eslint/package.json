@@ -1,0 +1,75 @@
+{
+  "name": "@tomjs/eslint",
+  "version": "1.0.0",
+  "description": "eslint config for tomjs",
+  "keywords": [
+    "lint",
+    "eslint",
+    "prettier",
+    "typescript",
+    "vue"
+  ],
+  "author": {
+    "name": "tom",
+    "email": "tom@tomgao.cc"
+  },
+  "license": "MIT",
+  "files": [
+    "es",
+    "lib",
+    "*.md"
+  ],
+  "main": "./lib/index.js",
+  "module": "./es/index.js",
+  "types": "./es/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./lib/index.js",
+      "import": "./es/index.js",
+      "types": "./es/index.d.ts"
+    },
+    "./typescript": {
+      "require": "./lib/typescript.js",
+      "import": "./es/typescript.js",
+      "types": "./es/typescript.d.ts"
+    },
+    "./vue": {
+      "require": "./lib/vue/index.js",
+      "import": "./es/vue/index.js",
+      "types": "./es/vue/index.d.ts"
+    },
+    "./vue/typescript": {
+      "require": "./lib/vue/typescript.js",
+      "import": "./es/vue/typescript.js",
+      "types": "./es/vue/typescript.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "npm run clean && vite build",
+    "clean": "rimraf ./es ./lib"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.7.0",
+    "@typescript-eslint/parser": "^6.7.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-import-resolver-typescript": "^3.6.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "eslint-plugin-vue": "^9.17.0",
+    "vue-eslint-parser": "^9.3.1"
+  },
+  "peerDependencies": {
+    "eslint": ">=8.0.0",
+    "prettier": ">=3.0.0",
+    "typescript": "*"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
+  },
+  "engines": {
+    "node": "^16.0.0 || >=18.0.0"
+  }
+}
