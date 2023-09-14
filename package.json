@@ -10,15 +10,20 @@
   "scripts": {
     "build": "pnpm --filter=@tomjs/* -r --stream build",
     "lint": "run-s lint:eslint lint:prettier",
-    "lint:eslint": "eslint \"packages/**/*.{js,cjs,ts}\" *.{js,cjs,ts} --fix --cache --ignore-path .gitignore",
-    "lint:prettier": "prettier --write \"packages/**/*.{js,cjs,ts,json,md}\" *.{js,cjs,ts,json,md}"
+    "lint:eslint": "eslint \"packages/**/*.{js,cjs,ts}\" *.{js,cjs,ts} --fix --cache",
+    "lint:prettier": "prettier --write \"packages/**/*.{js,cjs,ts,json,md}\" *.{js,cjs,ts,json,md}",
+    "prepare": "husky install"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.7.1",
+    "@tomjs/commitlint": "workspace:^",
     "@tomjs/eslint": "workspace:^",
     "@tomjs/prettier": "workspace:^",
     "@tomjs/tsconfig": "workspace:^",
     "@types/node": "^16.18.50",
     "eslint": "^8.49.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.1",
     "npm-run-all": "^4.1.5",
     "prettier": "^3.0.3",
     "rimraf": "^5.0.1",

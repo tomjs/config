@@ -1,0 +1,35 @@
+{
+  "name": "@tomjs/commitlint",
+  "version": "1.0.0",
+  "description": "commitlint config for tomjs",
+  "keywords": [
+    "lint",
+    "commitlint"
+  ],
+  "author": {
+    "name": "tom",
+    "email": "tom@tomgao.cc"
+  },
+  "license": "MIT",
+  "files": [
+    "es",
+    "lib",
+    "*.md"
+  ],
+  "main": "./lib/index.js",
+  "module": "./es/index.js",
+  "types": "./es/index.d.ts",
+  "scripts": {
+    "build": "npm run clean && vite build",
+    "clean": "rimraf ./es ./lib"
+  },
+  "dependencies": {
+    "@commitlint/config-conventional": "^17.7.0"
+  },
+  "peerDependencies": {
+    "@commitlint/cli": "^17.7.1"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
