@@ -17,6 +17,7 @@
     "url": "https://github.com/tomgao365/tomjs.git",
     "directory": "packages/tsconfig"
   },
+  "homepage": "https://github.com/tomgao365/tomjs/tree/master/packages/tsconfig#readme",
   "files": [
     "*.json",
     "*.md"

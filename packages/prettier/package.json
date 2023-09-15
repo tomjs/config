@@ -16,6 +16,7 @@
     "url": "https://github.com/tomgao365/tomjs.git",
     "directory": "packages/prettier"
   },
+  "homepage": "https://github.com/tomgao365/tomjs/tree/master/packages/prettier#readme",
   "files": [
     "es",
     "lib",

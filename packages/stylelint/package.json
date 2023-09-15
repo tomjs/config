@@ -20,6 +20,7 @@
     "url": "https://github.com/tomgao365/tomjs.git",
     "directory": "packages/stylelint"
   },
+  "homepage": "https://github.com/tomgao365/tomjs/tree/master/packages/stylelint#readme",
   "files": [
     "es",
     "lib",

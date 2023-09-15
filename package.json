@@ -14,7 +14,8 @@
     "np:version": "changeset version",
     "np:commit": "tsx ./scripts/changeset/commit",
     "np:publish": "changeset publish --tag latest && git push --follow-tags",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "postinstall": "pnpm build"
   },
   "devDependencies": {
     "@changesets/cli": "^2.26.2",

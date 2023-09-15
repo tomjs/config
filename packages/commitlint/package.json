@@ -16,6 +16,7 @@
     "url": "https://github.com/tomgao365/tomjs.git",
     "directory": "packages/commitlint"
   },
+  "homepage": "https://github.com/tomgao365/tomjs/tree/master/packages/commitlint#readme",
   "files": [
     "es",
     "lib",
