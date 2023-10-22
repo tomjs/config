@@ -2,7 +2,9 @@
 
 ![npm](https://img.shields.io/npm/v/%40tomjs/tsconfig) ![NPM](https://img.shields.io/npm/l/%40tomjs%2Ftsconfig)
 
-前端项目 [tsconfig](https://www.typescriptlang.org/tsconfig) 配置。**_主要用于个人学习，不推荐他人生产环境使用_**。
+前端项目 [tsconfig](https://www.typescriptlang.org/tsconfig) 配置。
+
+**_本项目主要用于个人学习，不推荐他人生产环境使用_**
 
 ## 使用说明
 

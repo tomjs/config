@@ -4,7 +4,7 @@
   "type": "module",
   "license": "MIT",
   "scripts": {
-    "build": "pnpm --filter=@tomjs/* -r --stream build",
+    "build": "pnpm -r --stream --filter=@tomjs/* build",
     "lint": "run-s lint:eslint lint:prettier",
     "lint:eslint": "eslint \"{packages,scripts}/**/*.{js,cjs,ts}\" *.{js,cjs,ts} --fix --cache",
     "lint:prettier": "prettier --write \"{packages,scripts}/**/*.{js,cjs,ts,json,md}\" *.{js,cjs,ts,json,md}",
@@ -15,7 +15,7 @@
     "np:commit": "tsx ./scripts/changeset/commit",
     "np:publish": "changeset publish --tag latest && git push --follow-tags",
     "prepare": "husky install",
-    "postinstall": "pnpm build"
+    "postinstall": "pnpm -r --stream --filter=@tomjs/commitlint --filter=@tomjs/eslint --filter=@tomjs/prettier build"
   },
   "devDependencies": {
     "@changesets/cli": "^2.26.2",

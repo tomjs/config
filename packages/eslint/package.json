@@ -83,10 +83,14 @@
   "peerDependencies": {
     "eslint": ">=8.0.0",
     "prettier": ">=3.0.0",
+    "react": ">=17",
     "typescript": "*"
   },
   "peerDependenciesMeta": {
     "typescript": {
+      "optional": true
+    },
+    "react": {
       "optional": true
     }
   },
