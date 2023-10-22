@@ -2,7 +2,9 @@
 
 ![npm](https://img.shields.io/npm/v/%40tomjs/eslint) ![NPM](https://img.shields.io/npm/l/%40tomjs%2Feslint) ![npm package minimized gzipped size (scoped version select exports)](https://img.shields.io/bundlejs/size/%40tomjs/eslint)
 
-前端项目 [eslint](https://zh-hans.eslint.org/) js/ts/vue 代码风格规范配置。**_主要用于个人学习，不推荐他人生产环境使用_**。
+前端项目 [eslint](https://zh-hans.eslint.org/) js/ts/vue/react 代码风格规范配置。
+
+**_本项目主要用于个人学习，不推荐他人生产环境使用_**
 
 ## 使用说明
 
@@ -127,5 +129,53 @@ module.exports = {
     es6: true,
   },
   extends: [require.resolve('@tomjs/eslint/vue/typescript')],
+};
+```
+
+### react
+
+react 项目配置，继承 `default`
+
+#### 修改配置
+
+修改 `.eslintrc.{js,cjs}` 配置，如
+
+```js
+module.exports = {
+  root: true,
+  env: {
+    browser: true,
+    es6: true,
+  },
+  extends: [require.resolve('@tomjs/eslint/react')],
+};
+```
+
+#### 制作配置
+
+```bash
+pnpm add eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-react-refresh
+```
+
+- [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react)：react 规则
+- [eslint-plugin-react-hooks](https://www.npmjs.com/package/eslint-plugin-react-hooks)：react hooks 规则
+- [eslint-plugin-react-refresh](https://www.npmjs.com/package/eslint-plugin-react-refresh)：验证组件是否可以通过快速安全地刷新更新规则
+
+### react/typescript
+
+react 项目配置，继承 `typescript` 和 `react`
+
+#### 修改配置
+
+修改 `.eslintrc.{js,cjs}` 配置，如
+
+```js
+module.exports = {
+  root: true,
+  env: {
+    browser: true,
+    es6: true,
+  },
+  extends: [require.resolve('@tomjs/eslint/react/typescript')],
 };
 ```

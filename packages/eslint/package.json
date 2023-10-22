@@ -7,7 +7,9 @@
     "eslint",
     "prettier",
     "typescript",
-    "vue"
+    "vue",
+    "react",
+    "hooks"
   ],
   "author": {
     "name": "tom",
@@ -48,6 +50,16 @@
       "require": "./lib/vue/typescript.js",
       "import": "./es/vue/typescript.js",
       "types": "./es/vue/typescript.d.ts"
+    },
+    "./react": {
+      "require": "./lib/react/index.js",
+      "import": "./es/react/index.js",
+      "types": "./es/react/index.d.ts"
+    },
+    "./react/typescript": {
+      "require": "./lib/react/typescript.js",
+      "import": "./es/react/typescript.js",
+      "types": "./es/react/typescript.d.ts"
     }
   },
   "scripts": {
@@ -55,15 +67,18 @@
     "clean": "rimraf ./es ./lib"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^6.7.0",
-    "@typescript-eslint/parser": "^6.7.0",
+    "@typescript-eslint/eslint-plugin": "^6.8.0",
+    "@typescript-eslint/parser": "^6.8.0",
     "eslint-config-prettier": "^9.0.0",
-    "eslint-import-resolver-typescript": "^3.6.0",
+    "eslint-import-resolver-typescript": "^3.6.1",
     "eslint-plugin-import": "^2.28.1",
-    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
     "eslint-plugin-simple-import-sort": "^10.0.0",
     "eslint-plugin-vue": "^9.17.0",
-    "vue-eslint-parser": "^9.3.1"
+    "vue-eslint-parser": "^9.3.2"
   },
   "peerDependencies": {
     "eslint": ">=8.0.0",
