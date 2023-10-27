@@ -4,6 +4,8 @@
   "display": "react config",
   "compilerOptions": {
     "jsxImportSource": "react",
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "noEmit": true,
+    "allowImportingTsExtensions": true
   }
 }
