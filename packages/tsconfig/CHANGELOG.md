@@ -1,5 +1,12 @@
 # @tomjs/tsconfig
 
+## 1.0.3
+
+### Patch Changes
+
+- Change records
+  - feat: tsconfig 增加 react 配置
+
 ## 1.0.2
 
 ### Patch Changes

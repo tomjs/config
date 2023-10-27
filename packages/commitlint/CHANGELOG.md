@@ -1,5 +1,12 @@
 # @tomjs/commitlint
 
+## 1.0.3
+
+### Patch Changes
+
+- Change records
+  - chore: update commitlint deps
+
 ## 1.0.2
 
 ### Patch Changes
