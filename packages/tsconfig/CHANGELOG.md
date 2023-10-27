@@ -1,5 +1,12 @@
 # @tomjs/tsconfig
 
+## 1.0.4
+
+### Patch Changes
+
+- Change records
+  - fix: 修复 react tsconfig
+
 ## 1.0.3
 
 ### Patch Changes
