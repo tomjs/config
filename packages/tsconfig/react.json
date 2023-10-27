@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": "./vue.json",
+  "display": "react config",
+  "compilerOptions": {
+    "jsxImportSource": "react",
+    "jsx": "react-jsx"
+  }
+}

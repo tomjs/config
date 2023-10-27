@@ -5,7 +5,10 @@
   "keywords": [
     "tsconfig",
     "typescript",
-    "config"
+    "config",
+    "vue",
+    "react",
+    "node"
   ],
   "author": {
     "name": "tom",
