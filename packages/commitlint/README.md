@@ -22,6 +22,24 @@ module.exports = {
 };
 ```
 
+- 结合其他库
+
+结合 [husky](https://typicode.github.io/husky/) 和 [lint-staged](https://www.npmjs.com/package/lint-staged) 使用。
+
+```bash
+pnpm add -D husky lint-staged
+```
+
+`package.json` 的 `scripts` 增加 `prepare`
+
+```json
+{
+  "scripts": {
+    "prepare": "husky install"
+  }
+}
+```
+
 ## 制作配置
 
 ```bash
