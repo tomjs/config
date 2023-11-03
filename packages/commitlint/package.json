@@ -30,12 +30,12 @@
     "clean": "rimraf ./es ./lib"
   },
   "dependencies": {
-    "@commitlint/config-conventional": "^17.8.1"
+    "@commitlint/config-conventional": "^18.1.0"
   },
   "peerDependencies": {
-    "@commitlint/cli": ">=17.8.1"
+    "@commitlint/cli": ">=18.2.0"
   },
   "engines": {
-    "node": ">=14"
+    "node": ">=18"
   }
 }
