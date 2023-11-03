@@ -1,5 +1,12 @@
 # @tomjs/commitlint
 
+## 2.0.0
+
+### Major Changes
+
+- Change records
+  - chore: 升级 commitlint 依赖，支持 node>=18
+
 ## 1.0.4
 
 ### Patch Changes
