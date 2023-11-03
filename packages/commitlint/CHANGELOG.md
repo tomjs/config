@@ -1,5 +1,12 @@
 # @tomjs/commitlint
 
+## 1.0.4
+
+### Patch Changes
+
+- Change records
+  - fix: commitlint 降级支持node>=14
+
 ## 1.0.3
 
 ### Patch Changes
