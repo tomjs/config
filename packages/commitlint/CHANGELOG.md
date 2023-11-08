@@ -1,5 +1,12 @@
 # @tomjs/commitlint
 
+## 2.0.1
+
+### Patch Changes
+
+- Change records
+  - docs: 更新说明文档
+
 ## 2.0.0
 
 ### Major Changes

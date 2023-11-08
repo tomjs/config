@@ -1,5 +1,12 @@
 # @tomjs/tsconfig
 
+## 1.0.5
+
+### Patch Changes
+
+- Change records
+  - docs: 更新说明文档
+
 ## 1.0.4
 
 ### Patch Changes
