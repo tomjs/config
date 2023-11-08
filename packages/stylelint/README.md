@@ -4,8 +4,6 @@
 
 前端项目 [stylelint](https://stylelint.io/) 样式规范配置。
 
-**\_\_**
-
 ## 使用说明
 
 - 安装依赖

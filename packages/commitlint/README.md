@@ -4,8 +4,6 @@
 
 前端项目 [commitlint](https://commitlint.js.org/) 代码提交规范配置。
 
-**\_\_**
-
 ## 使用说明
 
 - 安装依赖

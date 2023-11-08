@@ -4,8 +4,6 @@
 
 前端项目 [eslint](https://zh-hans.eslint.org/) js/ts/vue/react 代码风格规范配置。
 
-**\_\_**
-
 ## 使用说明
 
 - 安装依赖
