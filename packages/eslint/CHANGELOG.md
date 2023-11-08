@@ -1,5 +1,12 @@
 # @tomjs/eslint
 
+## 1.0.6
+
+### Patch Changes
+
+- Change records
+  - docs: 更新说明文档
+
 ## 1.0.5
 
 ### Patch Changes

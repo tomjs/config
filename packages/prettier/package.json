@@ -1,6 +1,6 @@
 {
   "name": "@tomjs/prettier",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "prettier config for tomjs",
   "keywords": [
     "tomjs",
