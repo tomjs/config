@@ -3,8 +3,10 @@
   "version": "1.0.2",
   "description": "prettier config for tomjs",
   "keywords": [
+    "tomjs",
     "lint",
-    "prettier"
+    "prettier",
+    "config"
   ],
   "author": {
     "name": "tom",

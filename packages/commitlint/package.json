@@ -3,8 +3,10 @@
   "version": "2.0.0",
   "description": "commitlint config for tomjs",
   "keywords": [
+    "tomjs",
     "lint",
-    "commitlint"
+    "commitlint",
+    "config"
   ],
   "author": {
     "name": "tom",

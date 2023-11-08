@@ -3,9 +3,11 @@
   "version": "1.0.4",
   "description": "eslint config for tomjs",
   "keywords": [
+    "tomjs",
     "lint",
     "eslint",
     "prettier",
+    "config",
     "typescript",
     "vue",
     "react",

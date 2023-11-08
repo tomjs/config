@@ -3,8 +3,10 @@
   "version": "1.0.2",
   "description": "stylelint config for tomjs",
   "keywords": [
+    "tomjs",
     "lint",
     "stylelint",
+    "config",
     "style",
     "css",
     "less",

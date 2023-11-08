@@ -3,6 +3,7 @@
   "version": "1.0.4",
   "description": "typescript config for tomjs",
   "keywords": [
+    "tomjs",
     "tsconfig",
     "typescript",
     "config",
