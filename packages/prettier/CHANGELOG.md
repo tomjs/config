@@ -1,5 +1,12 @@
 # @tomjs/prettier
 
+## 1.0.5
+
+### Patch Changes
+
+- Change records
+  - docs: update doc
+
 ## 1.0.4
 
 ### Patch Changes

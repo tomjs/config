@@ -1,5 +1,12 @@
 # @tomjs/eslint
 
+## 1.0.7
+
+### Patch Changes
+
+- Change records
+  - docs: update doc
+
 ## 1.0.6
 
 ### Patch Changes

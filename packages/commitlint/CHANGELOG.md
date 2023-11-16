@@ -1,5 +1,12 @@
 # @tomjs/commitlint
 
+## 2.0.3
+
+### Patch Changes
+
+- Change records
+  - docs: update doc
+
 ## 2.0.2
 
 ### Patch Changes

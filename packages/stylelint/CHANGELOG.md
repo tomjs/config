@@ -1,5 +1,13 @@
 # @tomjs/stylelint
 
+## 1.0.5
+
+### Patch Changes
+
+- Change records
+  - docs: update doc
+  - feat: update stylelint config
+
 ## 1.0.4
 
 ### Patch Changes
