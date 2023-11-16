@@ -3,6 +3,10 @@ export default {
   extends: ['stylelint-config-standard', 'stylelint-config-property-sort-order-smacss'],
   overrides: [
     {
+      files: ['**/*.(css|html)'],
+      customSyntax: 'postcss-html',
+    },
+    {
       files: ['*.less', '**/*.less'],
       customSyntax: 'postcss-less',
       extends: ['stylelint-config-standard'],
