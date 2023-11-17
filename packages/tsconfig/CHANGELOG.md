@@ -1,5 +1,12 @@
 # @tomjs/tsconfig
 
+## 1.0.7
+
+### Patch Changes
+
+- Change records
+  - feat: tsconfig 增加更多配置
+
 ## 1.0.6
 
 ### Patch Changes
