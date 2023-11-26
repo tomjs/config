@@ -1,5 +1,12 @@
 # @tomjs/stylelint
 
+## 1.0.6
+
+### Patch Changes
+
+- Change records
+  - chore: update stylelint deps
+
 ## 1.0.5
 
 ### Patch Changes
