@@ -1,5 +1,12 @@
 # @tomjs/eslint
 
+## 1.0.9
+
+### Patch Changes
+
+- Change records
+  - chore: update readme and license
+
 ## 1.0.8
 
 ### Patch Changes

@@ -1,6 +1,6 @@
 {
   "name": "@tomjs/tsconfig",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "typescript config for tomjs",
   "keywords": [
     "tomjs",

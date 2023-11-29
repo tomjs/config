@@ -1,5 +1,12 @@
 # @tomjs/tsconfig
 
+## 1.0.8
+
+### Patch Changes
+
+- Change records
+  - chore: update readme and license
+
 ## 1.0.7
 
 ### Patch Changes

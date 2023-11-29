@@ -1,5 +1,12 @@
 # @tomjs/utils
 
+## 1.0.3
+
+### Patch Changes
+
+- Change records
+  - chore: update readme and license
+
 ## 1.0.2
 
 ### Patch Changes
