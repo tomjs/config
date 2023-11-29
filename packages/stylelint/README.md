@@ -1,8 +1,8 @@
 # @tomjs/stylelint
 
-![npm](https://img.shields.io/npm/v/%40tomjs/stylelint) ![NPM](https://img.shields.io/npm/l/%40tomjs%2Fstylelint) ![npm package minimized gzipped size (scoped version select exports)](https://img.shields.io/bundlejs/size/%40tomjs/stylelint)
+![npm](https://img.shields.io/npm/v/%40tomjs/stylelint) ![node-current (scoped)](https://img.shields.io/node/v/%40tomjs/stylelint) ![NPM](https://img.shields.io/npm/l/%40tomjs%2Fstylelint)
 
-前端项目 [stylelint](https://stylelint.io/) 样式规范配置，推荐 `node>=16`。
+前端项目 [stylelint](https://stylelint.io/) 样式规范配置。
 
 ## 使用说明
 

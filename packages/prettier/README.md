@@ -1,6 +1,6 @@
 # @tomjs/prettier
 
-![npm](https://img.shields.io/npm/v/%40tomjs/prettier) ![NPM](https://img.shields.io/npm/l/%40tomjs%2Fprettier) ![npm package minimized gzipped size (scoped version select exports)](https://img.shields.io/bundlejs/size/%40tomjs/prettier)
+![npm](https://img.shields.io/npm/v/%40tomjs/prettier) ![node-current (scoped)](https://img.shields.io/node/v/%40tomjs/prettier) ![NPM](https://img.shields.io/npm/l/%40tomjs%2Fprettier)
 
 前端项目 [prettier](https://prettier.io/) 代码格式化规范配置，推荐 `node>=16`。
 

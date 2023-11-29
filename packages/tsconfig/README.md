@@ -1,6 +1,6 @@
 # @tomjs/tsconfig
 
-![npm](https://img.shields.io/npm/v/%40tomjs/tsconfig) ![NPM](https://img.shields.io/npm/l/%40tomjs%2Ftsconfig)
+![npm](https://img.shields.io/npm/v/%40tomjs/tsconfig) ![node-current (scoped)](https://img.shields.io/node/v/%40tomjs/tsconfig) ![NPM](https://img.shields.io/npm/l/%40tomjs%2Ftsconfig)
 
 前端项目 [tsconfig](https://www.typescriptlang.org/tsconfig) 配置。
 

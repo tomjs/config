@@ -22,8 +22,8 @@ pnpm add -D stylelint @tomjs/stylelint
 
 | 模块 | 版本 | node |
 | --- | --- | --- |
-| [@tomjs/commitlint](./packages/commitlint/README.md) | ![npm](https://img.shields.io/npm/v/%40tomjs/commitlint) | `>=18` |
-| [@tomjs/eslint](./packages/eslint/README.md) | ![npm](https://img.shields.io/npm/v/%40tomjs/prettier) | `>=16` |
-| [@tomjs/prettier](./packages/prettier/README.md) | ![npm](https://img.shields.io/npm/v/%40tomjs/eslint) | `>=16` |
-| [@tomjs/stylelint](./packages/stylelint/README.md) | ![npm](https://img.shields.io/npm/v/%40tomjs/stylelint) | `>=16` |
-| [@tomjs/tsconfig](./packages/tsconfig/README.md) | ![npm](https://img.shields.io/npm/v/%40tomjs/tsconfig) | `>=16` |
+| [@tomjs/commitlint](./packages/commitlint/README.md) | ![npm](https://img.shields.io/npm/v/%40tomjs/commitlint) | ![node-current (scoped)](https://img.shields.io/node/v/%40tomjs/commitlint) |
+| [@tomjs/eslint](./packages/eslint/README.md) | ![npm](https://img.shields.io/npm/v/%40tomjs/prettier) | ![node-current (scoped)](https://img.shields.io/node/v/%40tomjs/prettier) |
+| [@tomjs/prettier](./packages/prettier/README.md) | ![npm](https://img.shields.io/npm/v/%40tomjs/eslint) | ![node-current (scoped)](https://img.shields.io/node/v/%40tomjs/eslint) |
+| [@tomjs/stylelint](./packages/stylelint/README.md) | ![npm](https://img.shields.io/npm/v/%40tomjs/stylelint) | ![node-current (scoped)](https://img.shields.io/node/v/%40tomjs/stylelint) |
+| [@tomjs/tsconfig](./packages/tsconfig/README.md) | ![npm](https://img.shields.io/npm/v/%40tomjs/tsconfig) | ![node-current (scoped)](https://img.shields.io/node/v/%40tomjs/tsconfig) |

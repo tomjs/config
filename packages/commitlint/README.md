@@ -1,6 +1,6 @@
 # @tomjs/commitlint
 
-![npm](https://img.shields.io/npm/v/%40tomjs/commitlint) ![NPM](https://img.shields.io/npm/l/%40tomjs%2Fcommitlint) ![npm package minimized gzipped size (scoped version select exports)](https://img.shields.io/bundlejs/size/%40tomjs/commitlint)
+![npm](https://img.shields.io/npm/v/%40tomjs/commitlint) ![node-current (scoped)](https://img.shields.io/node/v/%40tomjs/commitlint) ![NPM](https://img.shields.io/npm/l/%40tomjs%2Fcommitlint)
 
 前端项目 [commitlint](https://commitlint.js.org/) 代码提交规范配置，推荐 `node>=18`。
 

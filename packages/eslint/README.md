@@ -1,6 +1,6 @@
 # @tomjs/eslint
 
-![npm](https://img.shields.io/npm/v/%40tomjs/eslint) ![NPM](https://img.shields.io/npm/l/%40tomjs%2Feslint) ![npm package minimized gzipped size (scoped version select exports)](https://img.shields.io/bundlejs/size/%40tomjs/eslint)
+![npm](https://img.shields.io/npm/v/%40tomjs/eslint) ![node-current (scoped)](https://img.shields.io/node/v/%40tomjs/eslint) ![NPM](https://img.shields.io/npm/l/%40tomjs%2Feslint)
 
 前端项目 [eslint](https://zh-hans.eslint.org/) js/ts/vue/react 代码风格规范配置，推荐 `node>=16`。
 
