@@ -1,5 +1,12 @@
 # @tomjs/eslint
 
+## 1.1.0
+
+### Minor Changes
+
+- Change records
+  - chore: update eslint deps to support ts 5.3
+
 ## 1.0.9
 
 ### Patch Changes
