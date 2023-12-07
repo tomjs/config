@@ -1,5 +1,12 @@
 # @tomjs/eslint
 
+## 1.1.1
+
+### Patch Changes
+
+- Change records
+  - chore: update deps
+
 ## 1.1.0
 
 ### Minor Changes

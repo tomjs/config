@@ -1,5 +1,13 @@
 # @tomjs/stylelint
 
+## 1.1.0
+
+### Minor Changes
+
+- Change records
+  - feat: stylelint remove vue's export
+  - chore: update deps
+
 ## 1.0.7
 
 ### Patch Changes
