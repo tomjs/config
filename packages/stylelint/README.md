@@ -20,20 +20,6 @@ module.exports = {
 };
 ```
 
-### vue
-
-vue 项目 stylelint 配置
-
-#### 修改配置
-
-修改 `.stylelintrc.{js,cjs}` 配置，如
-
-```js
-module.exports = {
-  extends: [require.resolve('@tomjs/stylelint/vue')],
-};
-```
-
 #### 制作配置
 
 ```bash
