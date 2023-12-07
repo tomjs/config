@@ -35,11 +35,6 @@
       "require": "./lib/index.js",
       "import": "./es/index.js",
       "types": "./es/index.d.ts"
-    },
-    "./vue": {
-      "require": "./lib/vue.js",
-      "import": "./es/vue.js",
-      "types": "./es/vue.d.ts"
     }
   },
   "scripts": {

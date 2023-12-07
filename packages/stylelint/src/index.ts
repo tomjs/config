@@ -3,18 +3,18 @@ export default {
   extends: ['stylelint-config-standard', 'stylelint-config-property-sort-order-smacss'],
   overrides: [
     {
-      files: ['**/*.(css|html)'],
+      files: ['**/*.(css|html|vue)'],
       customSyntax: 'postcss-html',
     },
     {
       files: ['*.less', '**/*.less'],
       customSyntax: 'postcss-less',
-      extends: ['stylelint-config-standard'],
+      extends: ['stylelint-config-standard', 'stylelint-config-recommended-vue'],
     },
     {
       files: ['*.scss', '**/*.scss'],
       customSyntax: 'postcss-scss',
-      extends: ['stylelint-config-standard-scss'],
+      extends: ['stylelint-config-standard-scss', 'stylelint-config-recommended-vue/scss'],
       rule: {
         'scss/percent-placeholder-pattern': null,
       },
