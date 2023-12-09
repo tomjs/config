@@ -1,6 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
-  "extends": "./vue-dom.json",
+  "extends": "./react.json",
   "display": "react dom config",
   "compilerOptions": {
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
