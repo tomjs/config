@@ -1,5 +1,12 @@
 # @tomjs/tsconfig
 
+## 1.1.1
+
+### Patch Changes
+
+- Change records
+  - revert: tsconfig node revert
+
 ## 1.1.0
 
 ### Minor Changes
