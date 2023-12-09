@@ -1,5 +1,12 @@
 # @tomjs/tsconfig
 
+## 1.0.9
+
+### Patch Changes
+
+- Change records
+  - fix: tsconfig node moduleResolution to node16
+
 ## 1.0.8
 
 ### Patch Changes
