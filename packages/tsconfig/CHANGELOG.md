@@ -1,5 +1,12 @@
 # @tomjs/tsconfig
 
+## 1.1.0
+
+### Minor Changes
+
+- Change records
+  - feat: tsconfig node config add "resolveJsonModule": true
+
 ## 1.0.9
 
 ### Patch Changes
