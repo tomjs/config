@@ -1,5 +1,12 @@
 # @tomjs/stylelint
 
+## 1.1.1
+
+### Patch Changes
+
+- Change records
+  - fix: stylelint high version
+
 ## 1.1.0
 
 ### Minor Changes
