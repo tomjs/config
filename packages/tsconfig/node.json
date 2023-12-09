@@ -3,14 +3,15 @@
   "display": "node config",
   "compilerOptions": {
     "lib": ["ESNext"],
-    "module": "Node16",
+    "module": "ESNext",
     "target": "ES2021",
 
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "moduleResolution": "Node16",
-    "noImplicitAny": false
+    "moduleResolution": "Node",
+    "noImplicitAny": false,
+    "resolveJsonModule": true
   }
 }
