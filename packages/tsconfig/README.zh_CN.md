@@ -2,7 +2,9 @@
 
 ![npm](https://img.shields.io/npm/v/@tomjs/tsconfig) ![node-current (scoped)](https://img.shields.io/node/v/@tomjs/tsconfig) ![NPM](https://img.shields.io/npm/l/@tomjs/tsconfig)
 
-前端项目 [tsconfig](https://www.typescriptlang.org/tsconfig) 配置。
+[English](./README.md) | **中文**
+
+> 前端项目 [tsconfig](https://www.typescriptlang.org/tsconfig) 配置。
 
 ## 使用
 

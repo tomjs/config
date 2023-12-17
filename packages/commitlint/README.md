@@ -2,7 +2,9 @@
 
 ![npm](https://img.shields.io/npm/v/@tomjs/commitlint) ![node-current (scoped)](https://img.shields.io/node/v/@tomjs/commitlint) ![NPM](https://img.shields.io/npm/l/@tomjs/commitlint)
 
-Front-end project [commitlint](https://commitlint.js.org/) Code submission specification configuration, `node>=18` is recommended.
+**English** | [中文](./README.zh_CN.md)
+
+> Front-end project [commitlint](https://commitlint.js.org/) Code submission specification configuration, `node>=18` is recommended.
 
 ## Usage
 

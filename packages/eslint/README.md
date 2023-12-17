@@ -2,7 +2,9 @@
 
 ![npm](https://img.shields.io/npm/v/@tomjs/eslint) ![node-current (scoped)](https://img.shields.io/node/v/@tomjs/eslint) ![NPM](https://img.shields.io/npm/l/@tomjs/eslint)
 
-Front-end project [eslint](https://zh-hans.eslint.org/) js/ts/vue/react code style specification configuration, `node>=16` is recommended.
+**English** | [中文](./README.zh_CN.md)
+
+> Front-end project [eslint](https://zh-hans.eslint.org/) js/ts/vue/react code style specification configuration, `node>=16` is recommended.
 
 ## Usage
 

@@ -2,7 +2,9 @@
 
 ![npm](https://img.shields.io/npm/v/@tomjs/prettier) ![node-current (scoped)](https://img.shields.io/node/v/@tomjs/prettier) ![NPM](https://img.shields.io/npm/l/@tomjs/prettier)
 
-前端项目 [prettier](https://prettier.io/) 代码格式化规范配置，推荐 `node>=16`。
+[English](./README.md) | **中文**
+
+> 前端项目 [prettier](https://prettier.io/) 代码格式化规范配置，推荐 `node>=16`。
 
 ## 使用
 

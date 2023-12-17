@@ -2,7 +2,9 @@
 
 ![npm](https://img.shields.io/npm/v/@tomjs/stylelint) ![node-current (scoped)](https://img.shields.io/node/v/@tomjs/stylelint) ![NPM](https://img.shields.io/npm/l/@tomjs/stylelint)
 
-Front-end project [stylelint](https://stylelint.io/) style specification configuration.
+**English** | [中文](./README.zh_CN.md)
+
+> Front-end project [stylelint](https://stylelint.io/) style specification configuration.
 
 ## Usage
 

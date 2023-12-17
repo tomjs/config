@@ -2,7 +2,9 @@
 
 ![npm](https://img.shields.io/npm/v/@tomjs/stylelint) ![node-current (scoped)](https://img.shields.io/node/v/@tomjs/stylelint) ![NPM](https://img.shields.io/npm/l/@tomjs/stylelint)
 
-前端项目 [stylelint](https://stylelint.io/) 样式规范配置。
+[English](./README.md) | **中文**
+
+> 前端项目 [stylelint](https://stylelint.io/) 样式规范配置。
 
 ## 使用
 

@@ -2,7 +2,9 @@
 
 ![npm](https://img.shields.io/npm/v/@tomjs/tsconfig) ![node-current (scoped)](https://img.shields.io/node/v/@tomjs/tsconfig) ![NPM](https://img.shields.io/npm/l/@tomjs/tsconfig)
 
-Front-end project [tsconfig](https://www.typescriptlang.org/tsconfig) configuration.
+**English** | [中文](./README.zh_CN.md)
+
+> Front-end project [tsconfig](https://www.typescriptlang.org/tsconfig) configuration.
 
 ## use
 

@@ -2,7 +2,9 @@
 
 ![npm](https://img.shields.io/npm/v/@tomjs/eslint) ![node-current (scoped)](https://img.shields.io/node/v/@tomjs/eslint) ![NPM](https://img.shields.io/npm/l/@tomjs/eslint)
 
-前端项目 [eslint](https://zh-hans.eslint.org/) js/ts/vue/react 代码风格规范配置，推荐 `node>=16`。
+[English](./README.md) | **中文**
+
+> 前端项目 [eslint](https://zh-hans.eslint.org/) js/ts/vue/react 代码风格规范配置，推荐 `node>=16`。
 
 ## 使用
 

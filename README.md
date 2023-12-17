@@ -1,6 +1,8 @@
 # tomjs
 
-Standard organization of front-end project codes to facilitate quick project construction
+**English** | [中文](./README.zh_CN.md)
+
+> Standard organization of front-end project codes to facilitate quick project construction
 
 ## Instructions for use
 

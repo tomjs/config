@@ -2,7 +2,9 @@
 
 ![npm](https://img.shields.io/npm/v/@tomjs/commitlint) ![node-current (scoped)](https://img.shields.io/node/v/@tomjs/commitlint) ![NPM](https://img.shields.io/npm/l/@tomjs/commitlint)
 
-前端项目 [commitlint](https://commitlint.js.org/) 代码提交规范配置，推荐 `node>=18`。
+[English](./README.md) | **中文**
+
+> 前端项目 [commitlint](https://commitlint.js.org/) 代码提交规范配置，推荐 `node>=18`。
 
 ## 使用
 
