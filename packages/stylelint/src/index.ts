@@ -21,27 +21,7 @@ export default {
     },
   ],
   rules: {
-    'no-duplicate-selectors': null,
-    'media-feature-range-notation': 'prefix',
-    'color-function-notation': null,
     'alpha-value-notation': 'number',
-
-    'selector-not-notation': null,
-    'import-notation': null,
-    'function-no-unknown': null,
-    'selector-class-pattern': null,
-    'selector-pseudo-class-no-unknown': [
-      true,
-      {
-        ignorePseudoClasses: ['global', 'deep'],
-      },
-    ],
-    'selector-pseudo-element-no-unknown': [
-      true,
-      {
-        ignorePseudoElements: ['v-deep'],
-      },
-    ],
     'at-rule-no-unknown': [
       true,
       {
@@ -60,18 +40,15 @@ export default {
         ],
       },
     ],
-    'no-empty-source': null,
-    'string-quotes': null,
+    'color-function-notation': null,
+    'font-family-no-missing-generic-family-keyword': null,
+    'function-no-unknown': null,
+    'import-notation': null,
+    'media-feature-range-notation': 'prefix',
     'named-grid-areas-no-invalid': null,
     'no-descending-specificity': null,
-    'font-family-no-missing-generic-family-keyword': null,
-    'rule-empty-line-before': [
-      'always',
-      {
-        ignore: ['after-comment', 'first-nested'],
-      },
-    ],
-    'unit-no-unknown': [true, { ignoreUnits: ['rpx'] }],
+    'no-duplicate-selectors': null,
+    'no-empty-source': null,
     'order/order': [
       [
         'dollar-variables',
@@ -79,16 +56,44 @@ export default {
         'at-rules',
         'declarations',
         {
-          type: 'at-rule',
           name: 'supports',
+          type: 'at-rule',
         },
         {
-          type: 'at-rule',
           name: 'media',
+          type: 'at-rule',
         },
         'rules',
       ],
-      { severity: 'error' },
+      {
+        severity: 'error',
+      },
+    ],
+    'rule-empty-line-before': [
+      'always',
+      {
+        ignore: ['after-comment', 'first-nested'],
+      },
+    ],
+    'selector-class-pattern': null,
+    'selector-not-notation': null,
+    'selector-pseudo-class-no-unknown': [
+      true,
+      {
+        ignorePseudoClasses: ['global', 'deep'],
+      },
+    ],
+    'selector-pseudo-element-no-unknown': [
+      true,
+      {
+        ignorePseudoElements: ['v-deep'],
+      },
+    ],
+    'unit-no-unknown': [
+      true,
+      {
+        ignoreUnits: ['rpx'],
+      },
     ],
   },
   ignoreFiles: ['**/*.js', '**/*.jsx', '**/*.tsx', '**/*.ts'],
