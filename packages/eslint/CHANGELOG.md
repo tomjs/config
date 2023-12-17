@@ -1,5 +1,13 @@
 # @tomjs/eslint
 
+## 1.1.4
+
+### Patch Changes
+
+- Change records
+  - chore: update package.json keywords
+  - chore: update package.json author name
+
 ## 1.1.3
 
 ### Patch Changes

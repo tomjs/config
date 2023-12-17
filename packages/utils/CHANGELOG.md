@@ -1,5 +1,13 @@
 # @tomjs/utils
 
+## 1.0.6
+
+### Patch Changes
+
+- Change records
+  - chore: update package.json keywords
+  - chore: update package.json author name
+
 ## 1.0.5
 
 ### Patch Changes

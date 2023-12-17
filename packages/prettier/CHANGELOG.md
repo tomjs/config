@@ -1,5 +1,13 @@
 # @tomjs/prettier
 
+## 1.0.9
+
+### Patch Changes
+
+- Change records
+  - chore: update package.json keywords
+  - chore: update package.json author name
+
 ## 1.0.8
 
 ### Patch Changes

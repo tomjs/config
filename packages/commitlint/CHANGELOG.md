@@ -1,5 +1,13 @@
 # @tomjs/commitlint
 
+## 2.0.8
+
+### Patch Changes
+
+- Change records
+  - chore: update package.json keywords
+  - chore: update package.json author name
+
 ## 2.0.7
 
 ### Patch Changes

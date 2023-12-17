@@ -1,5 +1,14 @@
 # @tomjs/stylelint
 
+## 2.0.2
+
+### Patch Changes
+
+- Change records
+  - chore: update package.json keywords
+  - chore: update package.json author name
+  - fix: stylelint remove string-quotes and sort by alphabetical order
+
 ## 2.0.1
 
 ### Patch Changes

@@ -1,6 +1,6 @@
 {
   "name": "@tomjs/stylelint",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "stylelint config for tomjs",
   "keywords": [
     "lint",
