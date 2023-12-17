@@ -2,19 +2,19 @@
 
 ![npm](https://img.shields.io/npm/v/@tomjs/tsconfig) ![node-current (scoped)](https://img.shields.io/node/v/@tomjs/tsconfig) ![NPM](https://img.shields.io/npm/l/@tomjs/tsconfig)
 
-Front-end project [tsconfig](https://www.typescriptlang.org/tsconfig) configuration.
+前端项目 [tsconfig](https://www.typescriptlang.org/tsconfig) 配置。
 
-## use
+## 使用
 
-Install dependencies
+安装依赖
 
 ```bash
 pnpm add -D @tomjs/tsconfig
 ```
 
-### node project
+### node 项目
 
-Modify `tsconfig.node.json` configuration
+修改 `tsconfig.node.json` 配置
 
 ```json
 {
@@ -26,12 +26,12 @@ Modify `tsconfig.node.json` configuration
 }
 ```
 
-### vue project
+### vue 项目
 
-Modify `tsconfig.json` configuration
+修改 `tsconfig.json` 配置
 
-- `vue.json`: common configuration
-- `vue-dom.json`: loose configuration
+- `vue.json`: 通用配置
+- `vue-dom.json`: 宽松配置
 
 ```json
 {
@@ -46,12 +46,12 @@ Modify `tsconfig.json` configuration
 }
 ```
 
-### react project
+### react 项目
 
-Modify `tsconfig.json` configuration
+修改 `tsconfig.json` 配置
 
-- `react.json`: common configuration
-- `react-dom.json`: loose configuration
+- `react.json`: 通用配置
+- `react-dom.json`: 宽松配置
 
 ```json
 {

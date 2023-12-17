@@ -2,17 +2,17 @@
 
 ![npm](https://img.shields.io/npm/v/@tomjs/prettier) ![node-current (scoped)](https://img.shields.io/node/v/@tomjs/prettier) ![NPM](https://img.shields.io/npm/l/@tomjs/prettier)
 
-Front-end project [prettier](https://prettier.io/) Code formatting standard configuration, `node>=16` is recommended.
+前端项目 [prettier](https://prettier.io/) 代码格式化规范配置，推荐 `node>=16`。
 
-## Usage
+## 使用
 
-- Install dependencies
+- 安装依赖
 
 ```bash
 pnpm add -D prettier @tomjs/prettier
 ```
 
-- Modify `.prettierrc.{js,cjs}` configuration
+- 修改 `.prettierrc.{js,cjs}` 配置
 
 ```js
 module.exports = require.resolve('@tomjs/prettier');

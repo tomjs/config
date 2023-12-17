@@ -2,10 +2,10 @@
 
 ![npm](https://img.shields.io/npm/v/@tomjs/utils) ![NPM](https://img.shields.io/npm/l/@tomjs/utils)
 
-Front-end tool library (to be implemented)
+前端工具库(待实现)
 
-## use
+## 使用
 
 ```bash
-pnpm add @tomjs/utils
+pnpm add -D @tomjs/utils
 ```

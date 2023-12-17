@@ -1,18 +1,18 @@
 # @tomjs/stylelint
 
-![npm](https://img.shields.io/npm/v/%40tomjs/stylelint) ![node-current (scoped)](https://img.shields.io/node/v/%40tomjs/stylelint) ![NPM](https://img.shields.io/npm/l/%40tomjs%2Fstylelint)
+![npm](https://img.shields.io/npm/v/@tomjs/stylelint) ![node-current (scoped)](https://img.shields.io/node/v/@tomjs/stylelint) ![NPM](https://img.shields.io/npm/l/@tomjs/stylelint)
 
-前端项目 [stylelint](https://stylelint.io/) 样式规范配置。
+Front-end project [stylelint](https://stylelint.io/) style specification configuration.
 
-## 使用说明
+## Usage
 
-- 安装依赖
+- Install dependencies
 
 ```bash
 pnpm add -D stylelint prettier @tomjs/stylelint
 ```
 
-- 修改 `.stylelintrc.{js,cjs}` 配置
+- Modify `.stylelintrc.{js,cjs}` configuration
 
 ```js
 module.exports = {
@@ -20,7 +20,7 @@ module.exports = {
 };
 ```
 
-#### 制作配置
+#### Make configuration
 
 ```bash
 pnpm add --save-peer prettier stylelint
@@ -29,13 +29,13 @@ pnpm add stylelint-prettier stylelint-config-standard stylelint-config-standard-
 pnpm add stylelint-order stylelint-config-property-sort-order-smacss
 ```
 
-- [stylelint-prettier](https://www.npmjs.com/package/stylelint-prettier)：将 Prettier 作为 stylelint 规则运行，并将差异报告为单个 stylelint 问题
-- [stylelint-config-standard](https://www.npmjs.com/package/stylelint-config-standard)：它扩展了 stylelint-config-recommended，并开启了附加规则，以执行 CSS 规范中的现代约定
-- [stylelint-config-standard-scss](https://www.npmjs.com/package/stylelint-config-standard-scss)：stylelint 的标准 scss 共享配置
-- [stylelint-config-recommended-vue](https://www.npmjs.com/package/stylelint-config-recommended-vue)：stylelint 的推荐 vue 共享配置
-- [stylelint-order](https://www.npmjs.com/package/stylelint-order)：为 stylelint 提供的与排序相关的提示规则的插件包
-- [stylelint-config-property-sort-order-smacss](https://www.npmjs.com/package/stylelint-config-property-sort-order-smacss)：基于 [SMACSS](http://smacss.com/) 方法的属性排序
+- [stylelint-prettier](https://www.npmjs.com/package/stylelint-prettier): Run Prettier as a stylelint rule and report differences as a single stylelint issue
+- [stylelint-config-standard](https://www.npmjs.com/package/stylelint-config-standard): It extends stylelint-config-recommended and turns on additional rules to enforce modernization in the CSS specification Agreement
+- [stylelint-config-standard-scss](https://www.npmjs.com/package/stylelint-config-standard-scss): Standard scss shared configuration for stylelint
+- [stylelint-config-recommended-vue](https://www.npmjs.com/package/stylelint-config-recommended-vue): stylelint’s recommended vue shared configuration
+- [stylelint-order](https://www.npmjs.com/package/stylelint-order): A plug-in package that provides sorting-related prompt rules for stylelint
+- [stylelint-config-property-sort-order-smacss](https://www.npmjs.com/package/stylelint-config-property-sort-order-smacss): Based on [SMACSS](http://smacss .com/) method attribute sorting
 
-## 参考项目
+## Reference project
 
 - [vue-vben-admin](https://github.com/vbenjs/vue-vben-admin)
