@@ -3,7 +3,6 @@
   "version": "1.0.8",
   "description": "prettier config for tomjs",
   "keywords": [
-    "tomjs",
     "lint",
     "prettier",
     "config"

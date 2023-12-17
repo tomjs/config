@@ -3,7 +3,6 @@
   "version": "2.0.7",
   "description": "commitlint config for tomjs",
   "keywords": [
-    "tomjs",
     "lint",
     "commitlint",
     "config"
