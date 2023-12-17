@@ -18,18 +18,13 @@
   },
   "homepage": "https://github.com/tomgao365/@tomjs/tree/master/packages/utils#readme",
   "files": [
-    "es",
-    "lib",
+    "dist",
     "*.md"
   ],
-  "main": "./lib/index.js",
-  "module": "./es/index.js",
-  "types": "./es/index.d.ts",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
   "scripts": {
-    "build": "npm run clean && vite build",
-    "clean": "rimraf ./es ./lib"
-  },
-  "engines": {
-    "node": ">=16"
+    "build": "vite build"
   }
 }

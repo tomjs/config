@@ -1,12 +1,15 @@
 import { defineConfig } from 'vite';
-import { buildPlugin } from 'vite-plugin-build';
+import dts from 'vite-plugin-dts';
 
 export default defineConfig({
-  plugins: [
-    buildPlugin({
-      fileBuild: {
-        emitDeclaration: true,
-      },
-    }),
-  ],
+  build: {
+    emptyOutDir: true,
+    lib: {
+      entry: 'src/index.ts',
+      name: 'tomjs',
+      formats: ['es', 'cjs'],
+      fileName: format => (format === 'es' ? 'index.mjs' : `index.js`),
+    },
+  },
+  plugins: [dts({ rollupTypes: true })],
 });
