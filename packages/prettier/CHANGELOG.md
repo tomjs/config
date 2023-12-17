@@ -1,5 +1,12 @@
 # @tomjs/prettier
 
+## 1.0.7
+
+### Patch Changes
+
+- Change records
+  - docs: add english readme
+
 ## 1.0.6
 
 ### Patch Changes

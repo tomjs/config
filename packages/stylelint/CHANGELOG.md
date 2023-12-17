@@ -1,5 +1,13 @@
 # @tomjs/stylelint
 
+## 2.0.0
+
+### Major Changes
+
+- Change records
+  - chore: update stylelint deps, support stylelint@16
+  - docs: add english readme
+
 ## 1.1.1
 
 ### Patch Changes

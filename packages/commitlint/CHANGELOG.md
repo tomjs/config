@@ -1,5 +1,12 @@
 # @tomjs/commitlint
 
+## 2.0.6
+
+### Patch Changes
+
+- Change records
+  - docs: add english readme
+
 ## 2.0.5
 
 ### Patch Changes

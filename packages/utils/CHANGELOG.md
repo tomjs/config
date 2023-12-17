@@ -1,5 +1,13 @@
 # @tomjs/utils
 
+## 1.0.4
+
+### Patch Changes
+
+- Change records
+  - feat: utils add uuid
+  - docs: add english readme
+
 ## 1.0.3
 
 ### Patch Changes

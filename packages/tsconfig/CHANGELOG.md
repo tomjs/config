@@ -1,5 +1,12 @@
 # @tomjs/tsconfig
 
+## 1.1.3
+
+### Patch Changes
+
+- Change records
+  - docs: add english readme
+
 ## 1.1.2
 
 ### Patch Changes

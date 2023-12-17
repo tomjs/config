@@ -1,5 +1,13 @@
 # @tomjs/eslint
 
+## 1.1.2
+
+### Patch Changes
+
+- Change records
+  - chore: update eslint deps
+  - docs: add english readme
+
 ## 1.1.1
 
 ### Patch Changes
