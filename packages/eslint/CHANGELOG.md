@@ -1,5 +1,14 @@
 # @tomjs/eslint
 
+## 1.1.3
+
+### Patch Changes
+
+- Change records
+  - chore: update license year
+  - docs: update readme
+  - fix: git repository
+
 ## 1.1.2
 
 ### Patch Changes

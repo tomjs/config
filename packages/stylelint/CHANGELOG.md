@@ -1,5 +1,14 @@
 # @tomjs/stylelint
 
+## 2.0.1
+
+### Patch Changes
+
+- Change records
+  - chore: update license year
+  - docs: update readme
+  - fix: git repository
+
 ## 2.0.0
 
 ### Major Changes

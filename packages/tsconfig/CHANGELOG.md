@@ -1,5 +1,14 @@
 # @tomjs/tsconfig
 
+## 1.1.4
+
+### Patch Changes
+
+- Change records
+  - chore: update license year
+  - docs: update readme
+  - fix: git repository
+
 ## 1.1.3
 
 ### Patch Changes

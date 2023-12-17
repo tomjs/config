@@ -1,5 +1,14 @@
 # @tomjs/commitlint
 
+## 2.0.7
+
+### Patch Changes
+
+- Change records
+  - chore: update license year
+  - docs: update readme
+  - fix: git repository
+
 ## 2.0.6
 
 ### Patch Changes
