@@ -1,5 +1,12 @@
 # @tomjs/commitlint
 
+## 2.1.0
+
+### Minor Changes
+
+- Change records
+  - chore: change github repository url
+
 ## 2.0.8
 
 ### Patch Changes

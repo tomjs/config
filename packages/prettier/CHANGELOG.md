@@ -1,5 +1,12 @@
 # @tomjs/prettier
 
+## 1.1.0
+
+### Minor Changes
+
+- Change records
+  - chore: change github repository url
+
 ## 1.0.9
 
 ### Patch Changes

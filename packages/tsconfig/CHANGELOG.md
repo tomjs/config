@@ -1,5 +1,12 @@
 # @tomjs/tsconfig
 
+## 1.2.0
+
+### Minor Changes
+
+- Change records
+  - chore: change github repository url
+
 ## 1.1.5
 
 ### Patch Changes
