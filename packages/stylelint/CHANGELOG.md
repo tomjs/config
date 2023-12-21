@@ -1,5 +1,12 @@
 # @tomjs/stylelint
 
+## 2.1.1
+
+### Patch Changes
+
+- Change records
+  - fix: github homepage
+
 ## 2.1.0
 
 ### Minor Changes
