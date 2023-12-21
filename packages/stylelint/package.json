@@ -22,7 +22,7 @@
     "url": "https://github.com/tomjs/config.git",
     "directory": "packages/stylelint"
   },
-  "homepage": "https://github.com/tomjs/tomjs/tree/master/packages/stylelint#readme",
+  "homepage": "https://github.com/tomjs/config/tree/master/packages/stylelint#readme",
   "files": [
     "es",
     "lib",

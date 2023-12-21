@@ -20,7 +20,7 @@
     "url": "https://github.com/tomjs/config.git",
     "directory": "packages/tsconfig"
   },
-  "homepage": "https://github.com/tomjs/tomjs/tree/master/packages/tsconfig#readme",
+  "homepage": "https://github.com/tomjs/config/tree/master/packages/tsconfig#readme",
   "files": [
     "*.json",
     "*.md"

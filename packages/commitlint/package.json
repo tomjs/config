@@ -17,7 +17,7 @@
     "url": "https://github.com/tomjs/config.git",
     "directory": "packages/commitlint"
   },
-  "homepage": "https://github.com/tomjs/tomjs/tree/master/packages/commitlint#readme",
+  "homepage": "https://github.com/tomjs/config/tree/master/packages/commitlint#readme",
   "files": [
     "es",
     "lib",
