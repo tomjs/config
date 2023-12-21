@@ -3,8 +3,8 @@
   "version": "1.1.4",
   "description": "eslint config for tomjs",
   "keywords": [
-    "lint",
     "eslint",
+    "lint",
     "prettier",
     "config",
     "typescript",
@@ -19,10 +19,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tomgao365/tomjs.git",
+    "url": "https://github.com/tomjs/config.git",
     "directory": "packages/eslint"
   },
-  "homepage": "https://github.com/tomgao365/tomjs/tree/master/packages/commitlint#readme",
+  "homepage": "https://github.com/tomjs/tomjs/tree/master/packages/commitlint#readme",
   "files": [
     "es",
     "lib",

@@ -3,8 +3,8 @@
   "version": "2.0.8",
   "description": "commitlint config for tomjs",
   "keywords": [
-    "lint",
     "commitlint",
+    "lint",
     "config"
   ],
   "author": {
@@ -14,10 +14,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tomgao365/tomjs.git",
+    "url": "https://github.com/tomjs/config.git",
     "directory": "packages/commitlint"
   },
-  "homepage": "https://github.com/tomgao365/tomjs/tree/master/packages/commitlint#readme",
+  "homepage": "https://github.com/tomjs/tomjs/tree/master/packages/commitlint#readme",
   "files": [
     "es",
     "lib",
