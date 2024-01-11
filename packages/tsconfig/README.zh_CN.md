@@ -4,7 +4,7 @@
 
 [English](./README.md) | **中文**
 
-> 前端项目 [tsconfig](https://www.typescriptlang.org/tsconfig) 配置。
+> 基于 [@vue/tsconfig](https://github.com/vuejs/tsconfig) 的 [tsconfig](https://www.typescriptlang.org/tsconfig)，支持 node、vue、react 项目。
 
 ## 使用
 

@@ -3,11 +3,6 @@
   "extends": "./react.json",
   "display": "react dom config",
   "compilerOptions": {
-    "lib": ["ES2020", "DOM", "DOM.Iterable"],
-
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true,
-    "noImplicitAny": false
+    "lib": ["ES2020", "DOM", "DOM.Iterable"]
   }
 }

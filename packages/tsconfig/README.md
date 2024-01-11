@@ -4,7 +4,7 @@
 
 **English** | [中文](./README.zh_CN.md)
 
-> Front-end project [tsconfig](https://www.typescriptlang.org/tsconfig) configuration.
+> Based on [@vue/tsconfig](https://github.com/vuejs/tsconfig)'s [tsconfig](https://www.typescriptlang.org/tsconfig), it supports node, vue, and react projects.
 
 ## use
 

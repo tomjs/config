@@ -26,9 +26,6 @@
     "*.md"
   ],
   "scripts": {},
-  "dependencies": {
-    "@vue/tsconfig": "^0.4.0"
-  },
   "engines": {
     "node": ">=16"
   }
