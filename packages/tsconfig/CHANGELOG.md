@@ -1,5 +1,12 @@
 # @tomjs/tsconfig
 
+## 1.3.0
+
+### Minor Changes
+
+- Change records
+  - feat: copy @vue/tsconfig in the project
+
 ## 1.2.1
 
 ### Patch Changes
