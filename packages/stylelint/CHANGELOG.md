@@ -1,5 +1,12 @@
 # @tomjs/stylelint
 
+## 2.2.0
+
+### Minor Changes
+
+- Change records
+  - chore: update stylelint deps
+
 ## 2.1.1
 
 ### Patch Changes
