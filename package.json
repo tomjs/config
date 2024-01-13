@@ -9,7 +9,7 @@
     "lint:eslint": "eslint \"{packages,scripts}/**/*.{js,cjs,ts}\" *.{js,cjs,ts} --fix --cache",
     "lint:prettier": "prettier --write \"{packages,scripts}/**/*.{js,cjs,ts,json,md}\" *.{js,cjs,ts,json,md}",
     "npd": "run-s np:*",
-    "np": "pnpm lint && pnpm build && run-s np:*",
+    "np": "pnpm build && pnpm lint && run-s np:*",
     "np:normal": "changeset",
     "np:version": "changeset version",
     "np:commit": "tsx ./scripts/changeset/commit",
