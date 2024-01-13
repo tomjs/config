@@ -31,7 +31,7 @@
     "clean": "rimraf ./es ./lib"
   },
   "dependencies": {
-    "@commitlint/config-conventional": "^18.4.3"
+    "@commitlint/config-conventional": "^18.4.4"
   },
   "peerDependencies": {
     "@commitlint/cli": ">=18.2.0"
