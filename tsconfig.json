@@ -1,7 +1,7 @@
 {
   "extends": "@tomjs/tsconfig/node.json",
   "compilerOptions": {
-    "composite": true
+    "composite": true,
   },
-  "include": ["scripts"]
+  "include": ["scripts"],
 }
