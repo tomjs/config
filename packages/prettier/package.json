@@ -17,7 +17,7 @@
     "url": "https://github.com/tomjs/config.git",
     "directory": "packages/prettier"
   },
-  "homepage": "https://github.com/tomjs/config/tree/master/packages/prettier#readme",
+  "homepage": "https://github.com/tomjs/config/tree/main/packages/prettier#readme",
   "files": [
     "es",
     "lib",

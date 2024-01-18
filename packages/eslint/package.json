@@ -22,7 +22,7 @@
     "url": "https://github.com/tomjs/config.git",
     "directory": "packages/eslint"
   },
-  "homepage": "https://github.com/tomjs/config/tree/master/packages/commitlint#readme",
+  "homepage": "https://github.com/tomjs/config/tree/main/packages/commitlint#readme",
   "files": [
     "es",
     "lib",
