@@ -30,4 +30,12 @@ export default {
   endOfLine: 'lf',
   // Vue 文件中 <script> 和 <style> 标记内的代码不缩进
   vueIndentScriptAndStyle: false,
+  overrides: [
+    {
+      files: ['tsconfig.json', 'tsconfig.*.json'],
+      options: {
+        trailingComma: 'none',
+      },
+    },
+  ],
 } as Config;
