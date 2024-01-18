@@ -1,5 +1,13 @@
 # @tomjs/stylelint
 
+## 2.3.0
+
+### Minor Changes
+
+- Change records
+  - style: format tsconfig
+  - chore: git rename master branch to main
+
 ## 2.2.0
 
 ### Minor Changes

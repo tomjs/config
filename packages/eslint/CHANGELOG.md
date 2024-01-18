@@ -1,5 +1,14 @@
 # @tomjs/eslint
 
+## 1.3.0
+
+### Minor Changes
+
+- Change records
+  - style: format tsconfig
+  - chore: update eslint deps
+  - chore: git rename master branch to main
+
 ## 1.2.2
 
 ### Patch Changes

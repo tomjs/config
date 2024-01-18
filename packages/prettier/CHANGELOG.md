@@ -1,5 +1,13 @@
 # @tomjs/prettier
 
+## 1.2.0
+
+### Minor Changes
+
+- Change records
+  - style: format tsconfig
+  - chore: git rename master branch to main
+
 ## 1.1.1
 
 ### Patch Changes

@@ -1,5 +1,12 @@
 # @tomjs/tsconfig
 
+## 1.4.0
+
+### Minor Changes
+
+- Change records
+  - chore: git rename master branch to main
+
 ## 1.3.0
 
 ### Minor Changes
