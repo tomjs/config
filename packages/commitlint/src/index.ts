@@ -3,6 +3,7 @@ export default {
   rules: {
     'body-leading-blank': [2, 'always'],
     'footer-leading-blank': [1, 'always'],
+    'header-trim': [2, 'always'],
     'header-max-length': [2, 'always', 120],
     'subject-empty': [2, 'never'],
     'type-empty': [2, 'never'],
