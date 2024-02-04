@@ -1,5 +1,13 @@
 # @tomjs/commitlint
 
+## 2.3.0
+
+### Minor Changes
+
+- Change records
+  - chore: update commitlint deps
+  - fix: prettier tsconfig.json set trailingComma to none
+
 ## 2.2.0
 
 ### Minor Changes
