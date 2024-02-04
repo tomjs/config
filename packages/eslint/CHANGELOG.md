@@ -1,5 +1,13 @@
 # @tomjs/eslint
 
+## 1.4.0
+
+### Minor Changes
+
+- Change records
+  - chore: update eslint deps
+  - fix: prettier tsconfig.json set trailingComma to none
+
 ## 1.3.0
 
 ### Minor Changes
