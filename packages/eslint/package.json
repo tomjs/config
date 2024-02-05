@@ -52,6 +52,16 @@
       "import": "./es/vue/typescript.js",
       "types": "./es/vue/typescript.d.ts"
     },
+    "./vue2": {
+      "require": "./lib/vue2/index.js",
+      "import": "./es/vue2/index.js",
+      "types": "./es/vue2/index.d.ts"
+    },
+    "./vue2/typescript": {
+      "require": "./lib/vue2/typescript.js",
+      "import": "./es/vue2/typescript.js",
+      "types": "./es/vue2/typescript.d.ts"
+    },
     "./react": {
       "require": "./lib/react/index.js",
       "import": "./es/react/index.js",
