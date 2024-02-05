@@ -1,5 +1,12 @@
 # @tomjs/eslint
 
+## 1.5.0
+
+### Minor Changes
+
+- Change records
+  - chore: eslint add vue2 config
+
 ## 1.4.0
 
 ### Minor Changes
