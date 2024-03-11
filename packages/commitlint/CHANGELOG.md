@@ -1,5 +1,12 @@
 # @tomjs/commitlint
 
+## 3.0.0
+
+### Major Changes
+
+- Change records
+  - chore: update commitlint version 18->19
+
 ## 2.3.0
 
 ### Minor Changes
