@@ -14,7 +14,7 @@
     "np:version": "changeset version",
     "np:commit": "tsx ./scripts/changeset/commit",
     "np:publish": "changeset publish --tag latest && git push --follow-tags",
-    "prepare": "husky install",
+    "prepare": "husky",
     "postinstall": "pnpm -r --stream --filter=@tomjs/commitlint --filter=@tomjs/eslint --filter=@tomjs/prettier build"
   },
   "devDependencies": {
@@ -26,10 +26,10 @@
     "@tomjs/tsconfig": "workspace:^",
     "@types/fs-extra": "^11.0.4",
     "@types/lodash": "^4.14.202",
-    "@types/node": "^16.18.71",
+    "@types/node": "^16.18.87",
     "eslint": "^8.57.0",
     "fs-extra": "^11.2.0",
-    "husky": "^8.0.3",
+    "husky": "^9.0.11",
     "lint-staged": "^15.2.2",
     "lodash": "^4.17.21",
     "npm-run-all": "^4.1.5",
