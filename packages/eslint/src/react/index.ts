@@ -1,3 +1,5 @@
+import type { ESLintConfig } from 'eslint-define-config';
+
 export default {
   env: {
     browser: true,
@@ -15,4 +17,4 @@ export default {
 
     'react-refresh/only-export-components': ['warn', { allowConstantExport: true }],
   },
-};
+} as ESLintConfig;

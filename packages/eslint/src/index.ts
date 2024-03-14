@@ -1,3 +1,5 @@
+import type { ESLintConfig } from 'eslint-define-config';
+
 export default {
   env: {
     es6: true,
@@ -64,4 +66,4 @@ export default {
     'import/newline-after-import': 'error',
     'import/no-duplicates': 'error',
   },
-};
+} as ESLintConfig;

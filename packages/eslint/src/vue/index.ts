@@ -1,3 +1,5 @@
+import type { ESLintConfig } from 'eslint-define-config';
+
 export default {
   env: {
     browser: true,
@@ -25,4 +27,4 @@ export default {
     'vue/no-mutating-props': 'off',
     'vue/attributes-order': 'error',
   },
-};
+} as ESLintConfig;

@@ -2,9 +2,10 @@ import type { ESLintConfig } from 'eslint-define-config';
 
 export default {
   env: {
-    browser: true,
+    node: true,
+    browser: false,
     es6: true,
   },
-  extends: ['./index', '../typescript'],
+  extends: ['../index', 'plugin:n/recommended'],
   rules: {},
 } as ESLintConfig;

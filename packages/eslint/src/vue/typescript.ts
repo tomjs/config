@@ -1,3 +1,5 @@
+import type { ESLintConfig } from 'eslint-define-config';
+
 export default {
   env: {
     node: true,
@@ -6,4 +8,4 @@ export default {
   parser: 'vue-eslint-parser',
   extends: ['./index', '../typescript'],
   rules: {},
-};
+} as ESLintConfig;

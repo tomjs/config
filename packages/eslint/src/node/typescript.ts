@@ -2,7 +2,7 @@ import type { ESLintConfig } from 'eslint-define-config';
 
 export default {
   env: {
-    browser: true,
+    node: true,
     es6: true,
   },
   extends: ['./index', '../typescript'],
