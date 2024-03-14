@@ -11,7 +11,7 @@ export default {
     },
   },
   extends: ['../index', 'plugin:react/recommended', 'plugin:react-hooks/recommended'],
-  plugins: ['react-refresh'],
+  plugins: [],
   rules: {
     'react/react-in-jsx-scope': 'off',
 
