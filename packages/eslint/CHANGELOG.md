@@ -1,5 +1,12 @@
 # @tomjs/eslint
 
+## 2.0.0
+
+### Major Changes
+
+- Change records
+  - feat: eslint config default change to typescript
+
 ## 1.6.1
 
 ### Patch Changes
