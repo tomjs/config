@@ -1,5 +1,12 @@
 # @tomjs/eslint
 
+## 2.0.1
+
+### Patch Changes
+
+- Change records
+  - feat: eslint node disable n/no-process-exit
+
 ## 2.0.0
 
 ### Major Changes
