@@ -1,8 +1,9 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
   "display": "node config",
-  "extends": "./vue.json",
+  "extends": "./node.json",
   "compilerOptions": {
+    "module": "Node16",
     "moduleResolution": "Node16"
   }
 }
