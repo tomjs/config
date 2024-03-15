@@ -1,5 +1,12 @@
 # @tomjs/eslint
 
+## 1.6.1
+
+### Patch Changes
+
+- Change records
+  - chore: update eslint deps
+
 ## 1.6.0
 
 ### Minor Changes
