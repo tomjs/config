@@ -1,4 +1,4 @@
-import { Config } from 'prettier';
+import type { Config } from 'prettier';
 
 /**
  * prettier 配置文档 https://prettier.io/docs/en/options
