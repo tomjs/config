@@ -1,5 +1,13 @@
 # @tomjs/eslint
 
+## 1.6.0
+
+### Minor Changes
+
+- Change records
+  - fix: eslint react config
+  - feat: add eslint node config and define config
+
 ## 1.5.1
 
 ### Patch Changes
