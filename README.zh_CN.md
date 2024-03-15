@@ -26,9 +26,9 @@ pnpm add -D husky lint-staged @commitlint/cli @tomjs/commitlint
 pnpm add -D stylelint @tomjs/stylelint
 ```
 
-## 项目列表
+## Packages
 
-| 模块 | 版本 | node |
+| 名称 | 版本 | node |
 | --- | --- | --- |
 | [@tomjs/commitlint](./packages/commitlint/README.md) | ![npm](https://img.shields.io/npm/v/@tomjs/commitlint) | ![node-current (scoped)](https://img.shields.io/node/v/@tomjs/commitlint) |
 | [@tomjs/eslint](./packages/eslint/README.md) | ![npm](https://img.shields.io/npm/v/@tomjs/eslint) | ![node-current (scoped)](https://img.shields.io/node/v/@tomjs/eslint) |
