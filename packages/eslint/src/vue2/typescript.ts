@@ -6,6 +6,6 @@ export default {
     es6: true,
   },
   parser: 'vue-eslint-parser',
-  extends: ['./index', '../typescript'],
+  extends: ['./javascript', '../typescript'],
   rules: {},
 } as ESLintConfig;

@@ -5,6 +5,6 @@ export default {
     node: true,
     es6: true,
   },
-  extends: ['./index', '../typescript'],
+  extends: ['./javascript', '../typescript'],
   rules: {},
 } as ESLintConfig;

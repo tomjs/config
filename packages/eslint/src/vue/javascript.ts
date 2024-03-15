@@ -15,7 +15,7 @@ export default {
     },
     extraFileExtensions: ['.vue'],
   },
-  extends: ['../index', 'plugin:vue/vue3-recommended'],
+  extends: ['../javascript', 'plugin:vue/vue3-recommended'],
   rules: {
     // vue
     'vue/require-default-prop': 'off',

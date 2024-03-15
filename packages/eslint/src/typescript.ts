@@ -6,7 +6,7 @@ export default {
     parser: '@typescript-eslint/parser',
   },
   plugins: ['@typescript-eslint'],
-  extends: ['./index', 'plugin:@typescript-eslint/recommended'],
+  extends: ['./javascript', 'plugin:@typescript-eslint/recommended'],
   rules: {
     '@typescript-eslint/ban-ts-ignore': 'off',
     '@typescript-eslint/explicit-function-return-type': 'off',

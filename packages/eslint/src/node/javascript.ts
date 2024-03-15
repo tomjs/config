@@ -6,6 +6,6 @@ export default {
     browser: false,
     es6: true,
   },
-  extends: ['../index', 'plugin:n/recommended'],
+  extends: ['../javascript', 'plugin:n/recommended'],
   rules: {},
 } as ESLintConfig;

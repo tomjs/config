@@ -10,7 +10,7 @@ export default {
       version: 'detect',
     },
   },
-  extends: ['../index', 'plugin:react/recommended', 'plugin:react-hooks/recommended'],
+  extends: ['../javascript', 'plugin:react/recommended', 'plugin:react-hooks/recommended'],
   plugins: [],
   rules: {
     'react/react-in-jsx-scope': 'off',

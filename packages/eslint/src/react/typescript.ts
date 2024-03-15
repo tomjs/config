@@ -5,7 +5,7 @@ export default {
     browser: true,
     es6: true,
   },
-  extends: ['./index', '../typescript'],
+  extends: ['./javascript', '../typescript'],
   plugins: ['react-refresh'],
   rules: {},
 } as ESLintConfig;
