@@ -7,5 +7,7 @@ export default {
     es6: true,
   },
   extends: ['../javascript', 'plugin:n/recommended'],
-  rules: {},
+  rules: {
+    'n/no-process-exit': 'off',
+  },
 } as ESLintConfig;
