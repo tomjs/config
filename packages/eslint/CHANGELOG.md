@@ -1,5 +1,12 @@
 # @tomjs/eslint
 
+## 2.1.0
+
+### Minor Changes
+
+- Change records
+  - feat: eslint remote prettier config
+
 ## 2.0.1
 
 ### Patch Changes
