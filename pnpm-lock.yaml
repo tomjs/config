@@ -127,9 +127,6 @@ importers:
       eslint-plugin-vue:
         specifier: ^9.23.0
         version: 9.23.0(eslint@8.57.0)
-      prettier:
-        specifier: '>=3.0.0'
-        version: 3.0.3
       react:
         specifier: '>=17'
         version: 18.2.0
