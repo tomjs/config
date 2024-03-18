@@ -9,5 +9,6 @@ export default {
   extends: ['../javascript', 'plugin:n/recommended'],
   rules: {
     'n/no-process-exit': 'off',
+    'n/shebang': 'off',
   },
 } as ESLintConfig;
