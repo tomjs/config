@@ -11,7 +11,7 @@
 - 安装依赖
 
 ```bash
-pnpm add -D eslint @tomjs/eslint
+pnpm add -D eslint prettier @tomjs/eslint
 ```
 
 - 根据需要修改 `.eslintrc.{js,cjs}` 配置，如
@@ -28,7 +28,7 @@ module.exports = {
 
 ### default
 
-基础配置，包含 eslint 基础配置，import、sort 等
+基础配置，包含 eslint 基础配置，prettier、import、sort 等
 
 #### 修改配置
 
@@ -47,12 +47,14 @@ module.exports = {
 #### 制作配置
 
 ```bash
-pnpm add ---save-peer eslint
-pnpm add eslint-plugin-import eslint-plugin-simple-import-sort
+pnpm add ---save-peer eslint prettier
+pnpm add eslint-config-prettier eslint-plugin-import eslint-plugin-prettier eslint-plugin-simple-import-sort
 ```
 
+- [eslint-config-prettier](https://www.npmjs.com/package/eslint-config-prettier): 关闭所有不必要的或可能与 `Prettier` 冲突的规则
 - [eslint-plugin-import](https://www.npmjs.com/package/eslint-plugin-import): 这个插件旨在支持 ES2015+（ES6+）导入/导出语法的提示，并防止文件路径和导入名称拼写错误的问题
 - [eslint-plugin-simple-import-sort](https://github.com/lydell/eslint-plugin-simple-import-sort): import 规范
+- [eslint-plugin-prettier](https://www.npmjs.com/package/eslint-plugin-prettier): 兼容 prettier 规则
 
 ### typescript
 

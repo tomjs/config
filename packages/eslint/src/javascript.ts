@@ -9,7 +9,7 @@ export default {
     sourceType: 'module',
   },
   plugins: ['import', 'simple-import-sort'],
-  extends: ['eslint:recommended'],
+  extends: ['eslint:recommended', 'plugin:prettier/recommended'],
   overrides: [
     {
       env: {

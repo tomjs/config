@@ -11,7 +11,7 @@
 - Install dependencies
 
 ```bash
-pnpm add -D eslint @tomjs/eslint
+pnpm add -D eslint prettier @tomjs/eslint
 ```
 
 - Modify the `.eslintrc.{js,cjs}` configuration as needed, such as
@@ -28,7 +28,7 @@ module.exports = {
 
 ### default
 
-Basic configuration, including eslint basic configuration, import, sort, etc.
+Basic configuration, including eslint basic configuration, prettier, import, sort, etc.
 
 #### Change setting
 
@@ -47,12 +47,14 @@ module.exports = {
 #### Make configuration
 
 ```bash
-pnpm add ---save-peer eslint
-pnpm add eslint-plugin-import eslint-plugin-simple-import-sort
+pnpm add ---save-peer eslint prettier
+pnpm add eslint-config-prettier eslint-plugin-import eslint-plugin-prettier eslint-plugin-simple-import-sort
 ```
 
+- [eslint-config-prettier](https://www.npmjs.com/package/eslint-config-prettier): Turn off all rules that are unnecessary or may conflict with `Prettier`
 - [eslint-plugin-import](https://www.npmjs.com/package/eslint-plugin-import): This plugin is designed to support ES2015+ (ES6+) import/export syntax hints and prevent file paths and imports Misspelled name issue
 - [eslint-plugin-simple-import-sort](https://github.com/lydell/eslint-plugin-simple-import-sort): import specification
+- [eslint-plugin-prettier](https://www.npmjs.com/package/eslint-plugin-prettier): Compatible with prettier rules
 
 ### typescript
 
