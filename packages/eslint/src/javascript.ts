@@ -8,8 +8,8 @@ export default {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  plugins: ['prettier', 'import', 'simple-import-sort'],
-  extends: ['eslint:recommended', 'plugin:prettier/recommended'],
+  plugins: ['import', 'simple-import-sort'],
+  extends: ['eslint:recommended'],
   overrides: [
     {
       env: {
