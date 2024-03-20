@@ -1,5 +1,12 @@
 # @tomjs/eslint
 
+## 2.3.0
+
+### Minor Changes
+
+- Change records
+  - feat(eslint): add node: prefix rule
+
 ## 2.2.0
 
 ### Minor Changes
