@@ -37,25 +37,9 @@ export default {
     'simple-import-sort/imports': [
       'error',
       {
-        // The default grouping, but with type imports first as a separate group.
         groups: [
-          [
-            '^node:.*\\u0000$',
-            '^\\w.*\\u0000$',
-            '^@\\w.*\\u0000$',
-            '^#\\w.*\\u0000$',
-            '^[^.].*\\u0000$',
-            '^\\..*\\u0000$',
-            '^node:',
-            '^vue',
-            '^vite',
-            '^\\w',
-            '^@\\w',
-            '^#\\w',
-            '^\\u0000',
-            '^',
-            '^\\.',
-          ],
+          ['^\\u0000'],
+          ['^node:', '^@?\\w', '^', '^\\.'],
           // Style imports.
           ['^.+\\.(scss|less|css)$'],
         ],

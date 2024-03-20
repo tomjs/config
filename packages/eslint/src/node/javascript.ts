@@ -8,7 +8,13 @@ export default {
   },
   extends: ['../javascript', 'plugin:n/recommended'],
   rules: {
-    'n/no-process-exit': 'off',
+    // disable rules
     'n/shebang': 'off',
+    'n/hashbang': 'off',
+    'n/no-missing-import': 'off',
+    'n/no-missing-require': 'off',
+    'n/no-process-exit': 'off',
+    // enable rules
+    'n/no-path-concat': 'error',
   },
 } as ESLintConfig;
