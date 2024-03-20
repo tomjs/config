@@ -115,6 +115,9 @@ importers:
       eslint-plugin-n:
         specifier: ^16.6.2
         version: 16.6.2(eslint@8.57.0)
+      eslint-plugin-node-import:
+        specifier: ^1.0.4
+        version: 1.0.4(eslint@8.57.0)
       eslint-plugin-prettier:
         specifier: ^5.1.3
         version: 5.1.3(eslint-config-prettier@9.1.0)(eslint@8.57.0)(prettier@3.2.5)
@@ -2543,6 +2546,15 @@ packages:
       minimatch: 3.1.2
       resolve: 1.22.4
       semver: 7.6.0
+    dev: false
+
+  /eslint-plugin-node-import@1.0.4(eslint@8.57.0):
+    resolution: {integrity: sha512-nn6EkM7+vJCDCXZiM0FDpYSekbhlk5LNoHJm9DlVSucGrsT9WoK+qOxIEm+SwoFBeH73cMHMavioDaHsu22b0Q==}
+    engines: {node: ^14.18.0 || ^16.0.0 || >= 18.0.0}
+    peerDependencies:
+      eslint: '>=7'
+    dependencies:
+      eslint: 8.57.0
     dev: false
 
   /eslint-plugin-prettier@5.1.3(eslint-config-prettier@9.1.0)(eslint@8.57.0)(prettier@3.2.5):

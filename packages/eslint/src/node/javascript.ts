@@ -7,6 +7,7 @@ export default {
     es6: true,
   },
   extends: ['../javascript', 'plugin:n/recommended'],
+  plugins: ['node-import'],
   rules: {
     // disable rules
     'n/shebang': 'off',
@@ -16,5 +17,7 @@ export default {
     'n/no-process-exit': 'off',
     // enable rules
     'n/no-path-concat': 'error',
+    // disallow imports of built-in Node.js modules without the node: prefix
+    'node-import/prefer-node-protocol': 'error',
   },
 } as ESLintConfig;
