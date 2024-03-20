@@ -1,5 +1,14 @@
 # @tomjs/eslint
 
+## 2.2.0
+
+### Minor Changes
+
+- Change records
+  - feat: change eslint rules
+  - feat: eslint node disable n/shebang rule
+  - revert: eslint revert prettier rules
+
 ## 2.1.0
 
 ### Minor Changes
