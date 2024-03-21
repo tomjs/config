@@ -1,5 +1,12 @@
 # @tomjs/tsconfig
 
+## 1.5.0
+
+### Minor Changes
+
+- Change records
+  - fix: node tsconfig
+
 ## 1.4.0
 
 ### Minor Changes
