@@ -8,17 +8,10 @@
     "lint": "run-s lint:eslint lint:prettier",
     "lint:eslint": "eslint \"{packages,scripts}/**/*.{js,cjs,ts}\" *.{js,cjs,ts} --fix --cache",
     "lint:prettier": "prettier --write \"{packages,scripts}/**/*.{js,cjs,ts,json,md}\" *.{js,cjs,ts,json,md}",
-    "npd": "run-s np:*",
-    "np": "pnpm build && pnpm lint && run-s np:*",
-    "np:normal": "changeset",
-    "np:version": "changeset version",
-    "np:commit": "tsx ./scripts/changeset/commit",
-    "np:publish": "changeset publish --tag latest && git push --follow-tags",
     "prepare": "husky",
     "postinstall": "pnpm -r --stream --filter=@tomjs/commitlint --filter=@tomjs/eslint --filter=@tomjs/prettier build"
   },
   "devDependencies": {
-    "@changesets/cli": "^2.27.1",
     "@commitlint/cli": "^19.0.3",
     "@tomjs/commitlint": "workspace:^",
     "@tomjs/eslint": "workspace:^",
@@ -44,11 +37,5 @@
   "engines": {
     "node": ">=16"
   },
-  "packageManager": "pnpm@8.7.5",
-  "pnpm": {
-    "patchedDependencies": {
-      "@changesets/cli@2.27.1": "patches/@changesets__cli@2.27.1.patch",
-      "@changesets/write@0.3.0": "patches/@changesets__write@0.3.0.patch"
-    }
-  }
+  "packageManager": "pnpm@8.7.5"
 }
