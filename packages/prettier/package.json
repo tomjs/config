@@ -24,7 +24,6 @@
   ],
   "main": "./lib/index.js",
   "module": "./es/index.js",
-  "types": "./es/index.d.ts",
   "scripts": {
     "build": "npm run clean && vite build",
     "clean": "rimraf ./es ./lib"

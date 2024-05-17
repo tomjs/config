@@ -32,8 +32,7 @@
   "exports": {
     ".": {
       "require": "./lib/index.js",
-      "import": "./es/index.js",
-      "types": "./es/index.d.ts"
+      "import": "./es/index.js"
     }
   },
   "scripts": {

@@ -29,57 +29,46 @@
   ],
   "main": "./lib/typescript.js",
   "module": "./es/typescript.js",
-  "types": "./es/typescript.d.ts",
   "exports": {
     ".": {
       "require": "./lib/typescript.js",
-      "import": "./es/typescript.js",
-      "types": "./es/typescript.d.ts"
+      "import": "./es/typescript.js"
     },
     "./javascript": {
       "require": "./lib/javascript.js",
-      "import": "./es/javascript.js",
-      "types": "./es/javascript.d.ts"
+      "import": "./es/javascript.js"
     },
     "./vue": {
       "require": "./lib/vue/javascript.js",
-      "import": "./es/vue/javascript.js",
-      "types": "./es/vue/javascript.d.ts"
+      "import": "./es/vue/javascript.js"
     },
     "./vue/javascript": {
       "require": "./lib/vue/javascript.js",
-      "import": "./es/vue/javascript.js",
-      "types": "./es/vue/javascript.d.ts"
+      "import": "./es/vue/javascript.js"
     },
     "./vue2": {
       "require": "./lib/vue2/typescript.js",
-      "import": "./es/vue2/typescript.js",
-      "types": "./es/vue2/typescript.d.ts"
+      "import": "./es/vue2/typescript.js"
     },
     "./vue2/javascript": {
       "require": "./lib/vue2/javascript.js",
-      "import": "./es/vue2/javascript.js",
-      "types": "./es/vue2/javascript.d.ts"
+      "import": "./es/vue2/javascript.js"
     },
     "./react": {
       "require": "./lib/react/typescript.js",
-      "import": "./es/react/typescript.js",
-      "types": "./es/react/typescript.d.ts"
+      "import": "./es/react/typescript.js"
     },
     "./react/javascript": {
       "require": "./lib/react/javascript.js",
-      "import": "./es/react/javascript.js",
-      "types": "./es/react/javascript.d.ts"
+      "import": "./es/react/javascript.js"
     },
     "./node": {
       "require": "./lib/node/typescript.js",
-      "import": "./es/node/typescript.js",
-      "types": "./es/node/typescript.d.ts"
+      "import": "./es/node/typescript.js"
     },
     "./node/javascript": {
       "require": "./lib/node/javascript.js",
-      "import": "./es/node/javascript.js",
-      "types": "./es/node/javascript.d.ts"
+      "import": "./es/node/javascript.js"
     }
   },
   "scripts": {
