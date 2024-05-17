@@ -17,7 +17,7 @@
     "@tomjs/eslint": "workspace:^",
     "@tomjs/prettier": "workspace:^",
     "@tomjs/tsconfig": "workspace:^",
-    "@types/node": "^16.18.97",
+    "@types/node": "^18.19.33",
     "eslint": "^8.57.0",
     "husky": "^9.0.11",
     "lint-staged": "^15.2.2",

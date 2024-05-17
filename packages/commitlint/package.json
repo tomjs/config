@@ -29,10 +29,10 @@
     "clean": "rimraf ./es ./lib"
   },
   "dependencies": {
-    "@commitlint/config-conventional": "^19.0.0"
+    "@commitlint/config-conventional": "^19.2.2"
   },
   "peerDependencies": {
-    "@commitlint/cli": ">=19.0.0"
+    "@commitlint/cli": "^19.3.0"
   },
   "engines": {
     "node": ">=18"
