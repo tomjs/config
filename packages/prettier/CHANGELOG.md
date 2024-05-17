@@ -1,3 +1,7 @@
+## [1.4.1](https://github.com/tomjs/config/compare/%40tomjs%2Fprettier%401.4.0...%40tomjs%2Fprettier%401.4.1) (2024-05-17)
+
+- chore: remove types [ce8ca81](https://github.com/tomjs/config/commit/ce8ca81)
+
 ## [1.4.0](https://github.com/tomjs/config/compare/%40tomjs%2Fprettier%401.3.0...%40tomjs%2Fprettier%401.4.0) (2024-05-17)
 
 - chore: fix repository and remove \*.md files in package.json [6c19b58](https://github.com/tomjs/config/commit/6c19b58)
