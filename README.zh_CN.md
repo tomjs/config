@@ -1,4 +1,4 @@
-# tomjs
+# tomjs/config
 
 [English](./README.md) | **中文**
 

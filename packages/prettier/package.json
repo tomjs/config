@@ -14,14 +14,13 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tomjs/config.git",
+    "url": "git+https://github.com/tomjs/config.git",
     "directory": "packages/prettier"
   },
   "homepage": "https://github.com/tomjs/config/tree/main/packages/prettier#readme",
   "files": [
     "es",
-    "lib",
-    "*.md"
+    "lib"
   ],
   "main": "./lib/index.js",
   "module": "./es/index.js",
