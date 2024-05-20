@@ -12,12 +12,15 @@ export default {
     // disable rules
     'n/shebang': 'off',
     'n/hashbang': 'off',
-    'n/no-missing-import': 'off',
-    'n/no-missing-require': 'off',
     'n/no-process-exit': 'off',
     // enable rules
     'n/no-path-concat': 'error',
     // disallow imports of built-in Node.js modules without the node: prefix
     'node-import/prefer-node-protocol': 'error',
+    // fix bug
+    'n/no-missing-import': 'off',
+    'n/no-missing-require': 'off',
+    'n/no-extraneous-import': 'off',
+    'n/no-extraneous-require': 'off',
   },
 } as ESLintConfig;
