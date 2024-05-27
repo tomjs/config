@@ -1,3 +1,7 @@
+## [3.1.0](https://github.com/tomjs/config/compare/%40tomjs%2Feslint%403.0.1...%40tomjs%2Feslint%403.1.0) (2024-05-27)
+
+- feat: eslint disable more vue rules [cb41206](https://github.com/tomjs/config/commit/cb41206)
+
 ## [3.0.1](https://github.com/tomjs/config/compare/%40tomjs%2Feslint%403.0.0...%40tomjs%2Feslint%403.0.1) (2024-05-20)
 
 - fix: eslint-plugin-n has bug [b9b2ccf](https://github.com/tomjs/config/commit/b9b2ccf)
