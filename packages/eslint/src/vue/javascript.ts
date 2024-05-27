@@ -18,13 +18,31 @@ export default {
   extends: ['../javascript', 'plugin:vue/vue3-recommended'],
   rules: {
     // vue
-    'vue/require-default-prop': 'off',
     'vue/no-reserved-component-names': 'off',
+
     'vue/multi-word-component-names': 'off',
     'vue/no-v-html': 'off',
     'vue/one-component-per-file': 'off',
-    'vue/require-prop-types': 'off',
-    'vue/no-mutating-props': 'off',
     'vue/attributes-order': 'error',
+    'vue/custom-event-name-casing': 'off',
+    'vue/html-closing-bracket-newline': 'off',
+    'vue/max-attributes-per-line': 'off',
+    'vue/multiline-html-element-content-newline': 'off',
+    'vue/singleline-html-element-content-newline': 'off',
+    'vue/attribute-hyphenation': 'off',
+    'vue/require-default-prop': 'off',
+    'vue/require-explicit-emits': 'off',
+    'vue/html-self-closing': [
+      'error',
+      {
+        html: {
+          void: 'always',
+          normal: 'never',
+          component: 'always',
+        },
+        svg: 'always',
+        math: 'always',
+      },
+    ],
   },
 } as ESLintConfig;
