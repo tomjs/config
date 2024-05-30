@@ -39,8 +39,8 @@
       "import": "./es/javascript.js"
     },
     "./vue": {
-      "require": "./lib/vue/javascript.js",
-      "import": "./es/vue/javascript.js"
+      "require": "./lib/vue/typescript.js",
+      "import": "./es/vue/typescript.js"
     },
     "./vue/javascript": {
       "require": "./lib/vue/javascript.js",
