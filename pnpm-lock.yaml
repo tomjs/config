@@ -62,6 +62,10 @@ importers:
       '@commitlint/config-conventional':
         specifier: ^19.2.2
         version: 19.2.2
+    devDependencies:
+      '@commitlint/types':
+        specifier: ^19.0.3
+        version: 19.0.3
 
   packages/eslint:
     dependencies:
