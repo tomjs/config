@@ -1,4 +1,4 @@
-## [3.3.0](https://github.com/tomjs/config/compare/%40tomjs%2Fcommitlint%403.2.0...commitlint-v3.3.0) (2024-05-30)
+## [3.3.0](https://github.com/tomjs/config/compare/%40tomjs%2Fcommitlint%403.2.0...commitlint%403.3.0) (2024-05-30)
 
 - feat: add header-max-length-plus rule [b7d2e1c](https://github.com/tomjs/config/commit/b7d2e1c)
 
