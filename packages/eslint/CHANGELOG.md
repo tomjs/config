@@ -1,3 +1,7 @@
+## [3.1.1](https://github.com/tomjs/config/compare/%40tomjs%2Feslint%403.1.0...eslint-v3.1.1) (2024-05-30)
+
+- fix: fix export file of vue rule configuration [c122568](https://github.com/tomjs/config/commit/c122568)
+
 ## [3.1.0](https://github.com/tomjs/config/compare/%40tomjs%2Feslint%403.0.1...%40tomjs%2Feslint%403.1.0) (2024-05-27)
 
 - feat: eslint disable more vue rules [cb41206](https://github.com/tomjs/config/commit/cb41206)
