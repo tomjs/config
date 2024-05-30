@@ -1,3 +1,7 @@
+## [3.3.0](https://github.com/tomjs/config/compare/%40tomjs%2Fcommitlint%403.2.0...commitlint-v3.3.0) (2024-05-30)
+
+- feat: add header-max-length-plus rule [b7d2e1c](https://github.com/tomjs/config/commit/b7d2e1c)
+
 ## [3.2.0](https://github.com/tomjs/config/compare/%40tomjs%2Fcommitlint%403.1.0...%40tomjs%2Fcommitlint%403.2.0) (2024-05-17)
 
 - chore: update deps [bd98209](https://github.com/tomjs/config/commit/bd98209)
