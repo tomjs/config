@@ -1,3 +1,8 @@
+## [3.2.0](https://github.com/tomjs/config/compare/eslint%403.1.1...eslint%403.2.0) (2024-06-10)
+
+- feat: disable n/no-unpublished-require and n/no-unpublished-import [c2de389](https://github.com/tomjs/config/commit/c2de389)
+- docs: fix changelog tag name [f3beffe](https://github.com/tomjs/config/commit/f3beffe)
+
 ## [3.1.1](https://github.com/tomjs/config/compare/%40tomjs%2Feslint%403.1.0...eslint%403.1.1) (2024-05-30)
 
 - fix: fix export file of vue rule configuration [c122568](https://github.com/tomjs/config/commit/c122568)
