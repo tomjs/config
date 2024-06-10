@@ -22,5 +22,7 @@ export default {
     'n/no-missing-require': 'off',
     'n/no-extraneous-import': 'off',
     'n/no-extraneous-require': 'off',
+    'n/no-unpublished-require': 'off',
+    'n/no-unpublished-import': 'off',
   },
 } as ESLintConfig;
