@@ -26,7 +26,8 @@
   "module": "./es/index.js",
   "scripts": {
     "build": "npm run clean && vite build",
-    "clean": "rimraf ./es ./lib"
+    "clean": "rimraf ./es ./lib",
+    "prepublishOnly": "pnpm build"
   },
   "peerDependencies": {
     "prettier": ">=3.0.0"

@@ -26,7 +26,8 @@
   "module": "./es/index.js",
   "scripts": {
     "build": "npm run clean && vite build",
-    "clean": "rimraf ./es ./lib"
+    "clean": "rimraf ./es ./lib",
+    "prepublishOnly": "pnpm build"
   },
   "dependencies": {
     "@commitlint/config-conventional": "^19.2.2"

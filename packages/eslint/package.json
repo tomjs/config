@@ -73,7 +73,8 @@
   },
   "scripts": {
     "build": "npm run clean && vite build",
-    "clean": "rimraf ./es ./lib"
+    "clean": "rimraf ./es ./lib",
+    "prepublishOnly": "pnpm build"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^7.14.1",

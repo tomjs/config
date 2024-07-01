@@ -37,7 +37,8 @@
   },
   "scripts": {
     "build": "npm run clean && vite build",
-    "clean": "rimraf ./es ./lib"
+    "clean": "rimraf ./es ./lib",
+    "prepublishOnly": "pnpm build"
   },
   "dependencies": {
     "postcss": "^8.4.39",
