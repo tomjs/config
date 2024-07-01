@@ -6,6 +6,10 @@
     "module": "ESNext",
     "target": "ES2021",
 
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
