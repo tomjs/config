@@ -1,3 +1,7 @@
+## [3.3.0](https://github.com/tomjs/config/compare/eslint%403.2.0...eslint%403.3.0) (2024-07-01)
+
+- chore: update eslint deps [b2475d7](https://github.com/tomjs/config/commit/b2475d7)
+
 ## [3.2.0](https://github.com/tomjs/config/compare/eslint%403.1.1...eslint%403.2.0) (2024-06-10)
 
 - feat: disable n/no-unpublished-require and n/no-unpublished-import [c2de389](https://github.com/tomjs/config/commit/c2de389)
