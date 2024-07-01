@@ -1,3 +1,7 @@
+## [2.6.1](https://github.com/tomjs/config/compare/stylelint%402.6.0...stylelint%402.6.1) (2024-07-01)
+
+- chore: add prepublishOnly script for release [d78eb9f](https://github.com/tomjs/config/commit/d78eb9f)
+
 ## [2.6.0](https://github.com/tomjs/config/compare/%40tomjs%2Fstylelint%402.5.0...stylelint%402.6.0) (2024-07-01)
 
 - chore: update stylelint deps [2b08c43](https://github.com/tomjs/config/commit/2b08c43)
