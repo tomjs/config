@@ -1,3 +1,7 @@
+## [2.6.0](https://github.com/tomjs/config/compare/%40tomjs%2Fstylelint%402.5.0...stylelint%402.6.0) (2024-07-01)
+
+- chore: update stylelint deps [2b08c43](https://github.com/tomjs/config/commit/2b08c43)
+
 ## [2.5.0](https://github.com/tomjs/config/compare/%40tomjs%2Fstylelint%402.4.0...%40tomjs%2Fstylelint%402.5.0) (2024-05-17)
 
 - chore: update deps [bd98209](https://github.com/tomjs/config/commit/bd98209)
