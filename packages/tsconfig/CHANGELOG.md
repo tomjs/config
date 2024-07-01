@@ -1,3 +1,9 @@
+## [1.7.0](https://github.com/tomjs/config/compare/%40tomjs%2Ftsconfig%401.5.0...tsconfig%401.7.0) (2024-07-01)
+
+- feat: add decorator option [185a341](https://github.com/tomjs/config/commit/185a341)
+- chore: fix repository and remove \*.md files in package.json [6c19b58](https://github.com/tomjs/config/commit/6c19b58)
+- chore: remove changesets [66c8283](https://github.com/tomjs/config/commit/66c8283)
+
 ## [1.6.0](https://github.com/tomjs/config/compare/%40tomjs%2Ftsconfig%401.5.0...%40tomjs%2Ftsconfig%401.6.0) (2024-05-17)
 
 - chore: fix repository and remove \*.md files in package.json [6c19b58](https://github.com/tomjs/config/commit/6c19b58)
