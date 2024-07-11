@@ -1,3 +1,7 @@
+## [1.7.1](https://github.com/tomjs/config/compare/tsconfig%401.7.0...tsconfig%401.7.1) (2024-07-11)
+
+- chore: remove decorator options [d58ff26](https://github.com/tomjs/config/commit/d58ff26)
+
 ## [1.7.0](https://github.com/tomjs/config/compare/%40tomjs%2Ftsconfig%401.5.0...tsconfig%401.7.0) (2024-07-01)
 
 - feat: add decorator option [185a341](https://github.com/tomjs/config/commit/185a341)
