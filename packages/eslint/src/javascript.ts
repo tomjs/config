@@ -44,6 +44,7 @@ const config: Linter.Config[] = [
       'import/newline-after-import': 'error',
       'import/no-duplicates': 'error',
       'import/no-unresolved': 'off',
+      'import/named': 'off',
     },
     ignores: [...GLOB_EXCLUDE],
   },
