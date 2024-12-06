@@ -1,3 +1,7 @@
+## [4.0.2](https://github.com/tomjs/config/compare/eslint%404.0.1...eslint%404.0.2) (2024-12-06)
+
+- feat: disable 'import/named' rule [24c1ce9](https://github.com/tomjs/config/commit/24c1ce9)
+
 ## [4.0.1](https://github.com/tomjs/config/compare/eslint%404.0.0...eslint%404.0.1) (2024-12-06)
 
 - feat: add version dependencies [3f2d8a7](https://github.com/tomjs/config/commit/3f2d8a7)
