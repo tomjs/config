@@ -14,7 +14,7 @@ export const meta = {
   version: require('../package.json').version,
 };
 
-const configs = {
+export const configs = {
   ts,
   js,
   node,

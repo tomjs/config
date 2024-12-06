@@ -27,14 +27,18 @@
     "es",
     "lib"
   ],
-  "main": "./lib/typescript.js",
-  "module": "./es/typescript.js",
+  "main": "./lib/index.js",
+  "module": "./es/index.js",
   "exports": {
     ".": {
+      "require": "./lib/index.js",
+      "import": "./es/index.js"
+    },
+    "./ts": {
       "require": "./lib/typescript.js",
       "import": "./es/typescript.js"
     },
-    "./javascript": {
+    "./js": {
       "require": "./lib/javascript.js",
       "import": "./es/javascript.js"
     },
@@ -42,7 +46,7 @@
       "require": "./lib/vue/typescript.js",
       "import": "./es/vue/typescript.js"
     },
-    "./vue/javascript": {
+    "./vue/js": {
       "require": "./lib/vue/javascript.js",
       "import": "./es/vue/javascript.js"
     },
@@ -50,7 +54,7 @@
       "require": "./lib/vue2/typescript.js",
       "import": "./es/vue2/typescript.js"
     },
-    "./vue2/javascript": {
+    "./vue2/js": {
       "require": "./lib/vue2/javascript.js",
       "import": "./es/vue2/javascript.js"
     },
@@ -58,7 +62,7 @@
       "require": "./lib/react/typescript.js",
       "import": "./es/react/typescript.js"
     },
-    "./react/javascript": {
+    "./react/js": {
       "require": "./lib/react/javascript.js",
       "import": "./es/react/javascript.js"
     },
@@ -66,7 +70,7 @@
       "require": "./lib/node/typescript.js",
       "import": "./es/node/typescript.js"
     },
-    "./node/javascript": {
+    "./node/js": {
       "require": "./lib/node/javascript.js",
       "import": "./es/node/javascript.js"
     }
