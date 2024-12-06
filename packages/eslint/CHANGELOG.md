@@ -1,3 +1,10 @@
+## [4.0.0](https://github.com/tomjs/config/compare/eslint%403.3.0...eslint%404.0.0) (2024-12-06)
+
+- docs: update readme [dfb5e44](https://github.com/tomjs/config/commit/dfb5e44)
+- feat: change export name [58ab7bb](https://github.com/tomjs/config/commit/58ab7bb)
+- feat: update to eslint@9 and use flat config [ae23458](https://github.com/tomjs/config/commit/ae23458)
+- chore: add prepublishOnly script for release [d78eb9f](https://github.com/tomjs/config/commit/d78eb9f)
+
 ## [3.3.0](https://github.com/tomjs/config/compare/eslint%403.2.0...eslint%403.3.0) (2024-07-01)
 
 - chore: update eslint deps [b2475d7](https://github.com/tomjs/config/commit/b2475d7)
