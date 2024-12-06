@@ -32,7 +32,7 @@ import eslint from '@tomjs/eslint/ts';
 export default [...eslint];
 ```
 
-- 支持 `ts`、`js`、`node`、`node/js`、`vue`、`vue/js`、`vue2`、`vue2/js`、`react`、`react/js` 配置。
+- 支持 `ts`、`js`、`node`、`node/js`、`vue`、`vue/js`、`vue2`、`vue2/js`、`react`、`react/js`、`browser`、`browser/js` 配置。
 
 ## 配置
 

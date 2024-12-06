@@ -32,7 +32,7 @@ import eslint from '@tomjs/eslint/ts';
 export default [...eslint];
 ```
 
-- Supports `ts`, `js`, `node`, `node/js`, `vue`, `vue/js`, `vue2`, `vue2/js`, `react`, `react/js` configurations.
+- Supports `ts`, `js`, `node`, `node/js`, `vue`, `vue/js`, `vue2`, `vue2/js`, `react`, `react/js`、`browser`、`browser/js` configurations.
 
 ### Configuration
 

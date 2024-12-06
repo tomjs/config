@@ -73,6 +73,14 @@
     "./node/js": {
       "require": "./lib/node/javascript.js",
       "import": "./es/node/javascript.js"
+    },
+    "./browser": {
+      "require": "./lib/browser/typescript.js",
+      "import": "./es/browser/typescript.js"
+    },
+    "./browser/js": {
+      "require": "./lib/browser/javascript.js",
+      "import": "./es/browser/javascript.js"
     }
   },
   "scripts": {

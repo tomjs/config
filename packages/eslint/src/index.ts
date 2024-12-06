@@ -1,3 +1,5 @@
+import browserJs from './browser/javascript';
+import browser from './browser/typescript';
 import js from './javascript';
 import nodeJs from './node/javascript';
 import node from './node/typescript';
@@ -25,6 +27,8 @@ export const configs = {
   'vue2/js': vue2Js,
   react,
   'react/js': reactJs,
+  browser,
+  'browser/js': browserJs,
 };
 
 export default {
