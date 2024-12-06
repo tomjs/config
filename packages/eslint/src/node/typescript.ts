@@ -1,10 +1,7 @@
-import type { ESLintConfig } from 'eslint-define-config';
+import type { Linter } from 'eslint';
+import typescript from '../typescript';
+import javascript from './javascript';
 
-export default {
-  env: {
-    node: true,
-    es6: true,
-  },
-  extends: ['./javascript', '../typescript'],
-  rules: {},
-} as ESLintConfig;
+const config: Linter.Config[] = [...javascript, ...typescript];
+
+export default config;

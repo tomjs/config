@@ -4,7 +4,9 @@ import { buildPlugin } from 'vite-plugin-build';
 export default defineConfig({
   plugins: [
     buildPlugin({
-      fileBuild: {},
+      fileBuild: {
+        emitDeclaration: true,
+      },
     }),
   ],
 });
