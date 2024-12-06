@@ -1,3 +1,7 @@
+## [4.0.1](https://github.com/tomjs/config/compare/eslint%404.0.0...eslint%404.0.1) (2024-12-06)
+
+- feat: add version dependencies [3f2d8a7](https://github.com/tomjs/config/commit/3f2d8a7)
+
 ## [4.0.0](https://github.com/tomjs/config/compare/eslint%403.3.0...eslint%404.0.0) (2024-12-06)
 
 - docs: update readme [dfb5e44](https://github.com/tomjs/config/commit/dfb5e44)
