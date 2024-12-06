@@ -1,3 +1,7 @@
+## [4.1.0](https://github.com/tomjs/config/compare/eslint%404.0.2...eslint%404.1.0) (2024-12-06)
+
+- feat: add browser config [bcf9d6d](https://github.com/tomjs/config/commit/bcf9d6d)
+
 ## [4.0.2](https://github.com/tomjs/config/compare/eslint%404.0.1...eslint%404.0.2) (2024-12-06)
 
 - feat: disable 'import/named' rule [24c1ce9](https://github.com/tomjs/config/commit/24c1ce9)
