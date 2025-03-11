@@ -1,7 +1,11 @@
 import type { Linter } from 'eslint';
 import pluginVue from 'eslint-plugin-vue';
+import javascript from '../javascript';
+import node from '../node/javascript';
 
 const config: Linter.Config[] = [
+  ...javascript,
+  ...node,
   ...pluginVue.configs['flat/recommended'],
   {
     files: ['*.vue'],

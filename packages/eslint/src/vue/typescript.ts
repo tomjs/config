@@ -1,7 +1,7 @@
 import type { Linter } from 'eslint';
+import node from '../node/typescript';
 import typescript from '../typescript';
-import javascript from './javascript';
 
-const config: Linter.Config[] = [...javascript, ...typescript];
+const config: Linter.Config[] = [...node, ...typescript];
 
 export default config;

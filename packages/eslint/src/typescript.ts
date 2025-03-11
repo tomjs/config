@@ -1,19 +1,10 @@
 import type { Linter } from 'eslint';
-import globals from 'globals';
 import tseslint from 'typescript-eslint';
 import js from './javascript';
 
 const config: Linter.Config[] = [
   ...js,
   ...(tseslint.configs.recommended as Linter.Config[]),
-  {
-    files: ['.*rc.ts', '*.config.ts'],
-    languageOptions: {
-      globals: {
-        ...globals.node,
-      },
-    },
-  },
   {
     rules: {
       '@typescript-eslint/ban-ts-ignore': 'off',
@@ -34,8 +25,8 @@ const config: Linter.Config[] = [
         },
       ],
       '@typescript-eslint/consistent-type-imports': 'error',
-
       '@typescript-eslint/no-require-imports': 'off',
+      '@typescript-eslint/no-empty-object-type': 'off',
     },
   },
 ];

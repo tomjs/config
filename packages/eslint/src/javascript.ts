@@ -3,7 +3,6 @@ import type { Linter } from 'eslint';
 import importPlugin from 'eslint-plugin-import';
 import prettierRecommended from 'eslint-plugin-prettier/recommended';
 import simpleImportSort from 'eslint-plugin-simple-import-sort';
-import globals from 'globals';
 import { GLOB_EXCLUDE } from './globs';
 
 const config: Linter.Config[] = [
@@ -45,16 +44,9 @@ const config: Linter.Config[] = [
       'import/no-duplicates': 'error',
       'import/no-unresolved': 'off',
       'import/named': 'off',
+      'import/no-named-as-default': 'off',
     },
     ignores: [...GLOB_EXCLUDE],
-  },
-  {
-    files: ['.*rc.{js,cjs,mjs}', '*.config.{js,cjs,mjs}'],
-    languageOptions: {
-      globals: {
-        ...globals.node,
-      },
-    },
   },
 ];
 
