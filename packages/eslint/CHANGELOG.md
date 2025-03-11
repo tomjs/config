@@ -1,3 +1,7 @@
+## [4.3.0](https://github.com/tomjs/config/compare/eslint%404.2.0...eslint%404.3.0) (2025-03-11)
+
+- chore: react config changed to optional [e9701e7](https://github.com/tomjs/config/commit/e9701e7)
+
 ## [4.2.0](https://github.com/tomjs/config/compare/eslint%404.1.0...eslint%404.2.0) (2025-03-11)
 
 - feat: fix react plugin error [71bd941](https://github.com/tomjs/config/commit/71bd941)
