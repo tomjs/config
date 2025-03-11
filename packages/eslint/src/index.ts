@@ -3,8 +3,6 @@ import browser from './browser/typescript';
 import js from './javascript';
 import nodeJs from './node/javascript';
 import node from './node/typescript';
-import reactJs from './react/javascript';
-import react from './react/typescript';
 import ts from './typescript';
 import vueJs from './vue/javascript';
 import vue from './vue/typescript';
@@ -25,8 +23,6 @@ export const configs = {
   'vue/js': vueJs,
   vue2,
   'vue2/js': vue2Js,
-  react,
-  'react/js': reactJs,
   browser,
   'browser/js': browserJs,
 };

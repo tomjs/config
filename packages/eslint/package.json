@@ -95,8 +95,6 @@
     "eslint-plugin-n": "^17.16.2",
     "eslint-plugin-node-import": "^1.0.4",
     "eslint-plugin-prettier": "^5.2.3",
-    "eslint-plugin-react-hooks": "^5.2.0",
-    "eslint-plugin-react-refresh": "^0.4.19",
     "eslint-plugin-simple-import-sort": "^12.1.1",
     "eslint-plugin-vue": "^10.0.0",
     "globals": "^15.15.0",
@@ -106,6 +104,8 @@
   "peerDependencies": {
     "eslint": "^9.7.0",
     "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
     "prettier": "^3.0.0",
     "react": ">=17",
     "typescript": "*"
@@ -118,6 +118,12 @@
       "optional": true
     },
     "eslint-plugin-react": {
+      "optional": true
+    },
+    "eslint-plugin-react-hooks": {
+      "optional": true
+    },
+    "eslint-plugin-react-refresh": {
       "optional": true
     }
   },
