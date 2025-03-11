@@ -1,5 +1,6 @@
 import browserJs from './browser/javascript';
 import browser from './browser/typescript';
+import { GLOB_EXCLUDE } from './globs';
 import js from './javascript';
 import nodeJs from './node/javascript';
 import node from './node/typescript';
@@ -13,6 +14,8 @@ export const meta = {
   name: '@tomjs/eslint',
   version: require('../package.json').version,
 };
+
+export { GLOB_EXCLUDE };
 
 export const configs = {
   ts,
