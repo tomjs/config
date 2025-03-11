@@ -1,3 +1,7 @@
+## [2.7.0](https://github.com/tomjs/config/compare/stylelint%402.6.1...stylelint%402.7.0) (2025-03-11)
+
+- feat: add config without prettier [6d4a81a](https://github.com/tomjs/config/commit/6d4a81a)
+
 ## [2.6.1](https://github.com/tomjs/config/compare/stylelint%402.6.0...stylelint%402.6.1) (2024-07-01)
 
 - chore: add prepublishOnly script for release [d78eb9f](https://github.com/tomjs/config/commit/d78eb9f)
