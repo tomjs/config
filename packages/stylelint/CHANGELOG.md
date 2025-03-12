@@ -1,3 +1,7 @@
+## [3.0.0](https://github.com/tomjs/config/compare/stylelint%402.7.0...stylelint%403.0.0) (2025-03-12)
+
+- feat: rm less and use recess-order [704c90b](https://github.com/tomjs/config/commit/704c90b)
+
 ## [2.7.0](https://github.com/tomjs/config/compare/stylelint%402.6.1...stylelint%402.7.0) (2025-03-11)
 
 - feat: add config without prettier [6d4a81a](https://github.com/tomjs/config/commit/6d4a81a)
