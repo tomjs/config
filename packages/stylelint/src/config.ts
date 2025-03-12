@@ -1,45 +1,22 @@
 export default {
-  plugins: ['stylelint-order'],
-  extends: ['stylelint-config-standard', 'stylelint-config-property-sort-order-smacss'],
+  extends: [
+    'stylelint-config-standard',
+    'stylelint-config-standard-scss',
+    'stylelint-config-recommended-vue/scss',
+    'stylelint-config-recess-order',
+  ],
   overrides: [
     {
-      files: ['**/*.(css|html|vue)'],
+      files: ['**/*.{vue,html}'],
       customSyntax: 'postcss-html',
     },
     {
-      files: ['*.less', '**/*.less'],
-      customSyntax: 'postcss-less',
-      extends: ['stylelint-config-standard', 'stylelint-config-recommended-vue'],
-    },
-    {
-      files: ['*.scss', '**/*.scss'],
+      files: ['**/*.scss'],
       customSyntax: 'postcss-scss',
-      extends: ['stylelint-config-standard-scss', 'stylelint-config-recommended-vue/scss'],
-      rule: {
-        'scss/percent-placeholder-pattern': null,
-      },
     },
   ],
   rules: {
     'alpha-value-notation': 'number',
-    'at-rule-no-unknown': [
-      true,
-      {
-        ignoreAtRules: [
-          'tailwind',
-          'apply',
-          'variants',
-          'responsive',
-          'screen',
-          'function',
-          'if',
-          'each',
-          'include',
-          'mixin',
-          'extend',
-        ],
-      },
-    ],
     'color-function-notation': null,
     'font-family-no-missing-generic-family-keyword': null,
     'function-no-unknown': null,
@@ -49,26 +26,6 @@ export default {
     'no-descending-specificity': null,
     'no-duplicate-selectors': null,
     'no-empty-source': null,
-    'order/order': [
-      [
-        'dollar-variables',
-        'custom-properties',
-        'at-rules',
-        'declarations',
-        {
-          name: 'supports',
-          type: 'at-rule',
-        },
-        {
-          name: 'media',
-          type: 'at-rule',
-        },
-        'rules',
-      ],
-      {
-        severity: 'error',
-      },
-    ],
     'rule-empty-line-before': [
       'always',
       {
@@ -83,16 +40,16 @@ export default {
         ignorePseudoClasses: ['global', 'deep'],
       },
     ],
-    'selector-pseudo-element-no-unknown': [
-      true,
-      {
-        ignorePseudoElements: ['v-deep'],
-      },
-    ],
     'unit-no-unknown': [
       true,
       {
         ignoreUnits: ['rpx'],
+      },
+    ],
+    'selector-type-no-unknown': [
+      true,
+      {
+        ignoreTypes: ['page', 'rich-text', 'scroll-view'],
       },
     ],
   },
