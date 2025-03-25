@@ -1,4 +1,8 @@
-export default {
-  extends: ['./config'],
+import type { Config } from 'stylelint';
+
+const config: Config = {
+  extends: ['@tomjs/stylelint/config'],
   plugins: ['stylelint-prettier'],
 };
+
+export default config;

@@ -1,8 +1,12 @@
-export default {
+import type { Config } from 'stylelint';
+import { GLOB_EXCLUDE } from './globs';
+
+const config: Config = {
   extends: [
-    'stylelint-config-standard',
-    'stylelint-config-standard-scss',
+    'stylelint-config-recommended',
+    'stylelint-config-recommended-scss',
     'stylelint-config-recommended-vue/scss',
+    'stylelint-config-html/vue',
     'stylelint-config-recess-order',
   ],
   overrides: [
@@ -11,7 +15,7 @@ export default {
       customSyntax: 'postcss-html',
     },
     {
-      files: ['**/*.scss'],
+      files: ['**/*.{css,scss}'],
       customSyntax: 'postcss-scss',
     },
   ],
@@ -19,7 +23,6 @@ export default {
     'alpha-value-notation': 'number',
     'color-function-notation': null,
     'font-family-no-missing-generic-family-keyword': null,
-    'function-no-unknown': null,
     'import-notation': null,
     'media-feature-range-notation': 'prefix',
     'named-grid-areas-no-invalid': null,
@@ -40,18 +43,8 @@ export default {
         ignorePseudoClasses: ['global', 'deep'],
       },
     ],
-    'unit-no-unknown': [
-      true,
-      {
-        ignoreUnits: ['rpx'],
-      },
-    ],
-    'selector-type-no-unknown': [
-      true,
-      {
-        ignoreTypes: ['page', 'rich-text', 'scroll-view'],
-      },
-    ],
   },
-  ignoreFiles: ['**/*.js', '**/*.jsx', '**/*.tsx', '**/*.ts'],
+  ignoreFiles: [...GLOB_EXCLUDE, '**/*.js', '**/*.jsx', '**/*.tsx', '**/*.ts'],
 };
+
+export default config;
