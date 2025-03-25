@@ -1,3 +1,7 @@
+## [4.0.1](https://github.com/tomjs/config/compare/stylelint%404.0.0...stylelint%404.0.1) (2025-03-25)
+
+- feat: vue config rollback [fca611b](https://github.com/tomjs/config/commit/fca611b)
+
 ## [4.0.0](https://github.com/tomjs/config/compare/stylelint%403.0.0...stylelint%404.0.0) (2025-03-25)
 
 - feat: use recommended config [21f090a](https://github.com/tomjs/config/commit/21f090a)
