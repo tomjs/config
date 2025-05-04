@@ -106,9 +106,6 @@ importers:
       postcss-scss:
         specifier: ^4.0.9
         version: 4.0.9(postcss@8.5.3)
-      prettier:
-        specifier: ^3.0.0
-        version: 3.4.2
       stylelint:
         specifier: ^16.8.2
         version: 16.16.0(typescript@5.8.3)
@@ -127,9 +124,6 @@ importers:
       stylelint-config-recommended-vue:
         specifier: ~1.5.0
         version: 1.5.0(postcss-html@1.8.0)(stylelint@16.16.0(typescript@5.8.3))
-      stylelint-prettier:
-        specifier: ^5.0.3
-        version: 5.0.3(prettier@3.4.2)(stylelint@16.16.0(typescript@5.8.3))
 
   packages/tsconfig: {}
 
@@ -3397,13 +3391,6 @@ packages:
     resolution: {integrity: sha512-0UuKo4+s1hgQ/uAxlYU4h0o0HS4NiQDud0NAUNI0aa8FJdmYHA5ZZTFHiV5FpmE3071e9pZx5j0QpVJW5zOCUA==}
     peerDependencies:
       stylelint: ^14.0.0 || ^15.0.0 || ^16.0.1
-
-  stylelint-prettier@5.0.3:
-    resolution: {integrity: sha512-B6V0oa35ekRrKZlf+6+jA+i50C4GXJ7X1PPmoCqSUoXN6BrNF6NhqqhanvkLjqw2qgvrS0wjdpeC+Tn06KN3jw==}
-    engines: {node: '>=18.12.0'}
-    peerDependencies:
-      prettier: '>=3.0.0'
-      stylelint: '>=16.0.0'
 
   stylelint-scss@6.11.1:
     resolution: {integrity: sha512-e4rYo0UY+BIMtGeGanghrvHTjcryxgZbyFxUedp8dLFqC4P70aawNdYjRrQxbnKhu3BNr4+lt5e/53tcKXiwFA==}
@@ -7393,12 +7380,6 @@ snapshots:
     dependencies:
       postcss: 8.5.3
       postcss-sorting: 8.0.2(postcss@8.5.3)
-      stylelint: 16.16.0(typescript@5.8.3)
-
-  stylelint-prettier@5.0.3(prettier@3.4.2)(stylelint@16.16.0(typescript@5.8.3)):
-    dependencies:
-      prettier: 3.4.2
-      prettier-linter-helpers: 1.0.0
       stylelint: 16.16.0(typescript@5.8.3)
 
   stylelint-scss@6.11.1(stylelint@16.16.0(typescript@5.8.3)):
