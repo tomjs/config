@@ -1,4 +1,8 @@
 {
   "extends": "@tomjs/tsconfig/node.json",
+  "compilerOptions": {
+    "composite": true,
+    "isolatedDeclarations": true
+  },
   "include": ["src"]
 }

@@ -14,8 +14,8 @@
 pnpm add -D prettier @tomjs/prettier
 ```
 
-- Modify `.prettierrc.{js,cjs}` configuration
+- Modify `prettier.config.{js,ts,mjs,mts}` configuration
 
 ```js
-module.exports = require.resolve('@tomjs/prettier');
+export default '@tomjs/prettier';
 ```

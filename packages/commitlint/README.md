@@ -14,20 +14,20 @@
 pnpm add -D @commitlint/cli @tomjs/commitlint
 ```
 
-- Modify `.commitlintrc.{js,cjs}` configuration
+- Modify `commitlint.config.{js,mjs,ts,mts}` configuration
 
 ```js
-module.exports = {
-  extends: [require.resolve('@tomjs/commitlint')],
+export default {
+  extends: ['@tomjs/commitlint'],
 };
 ```
 
 - Combine with other libraries
 
-Used in conjunction with [husky](https://typicode.github.io/husky/) and [lint-staged](https://www.npmjs.com/package/lint-staged).
+Used in conjunction with [simple-git-hooks](https://github.com/toplenboren/simple-git-hooks) and [lint-staged](https://www.npmjs.com/package/lint-staged).
 
 ```bash
-pnpm add -D husky lint-staged
+pnpm add -D simple-git-hooks lint-staged
 ```
 
 `scripts` of `package.json` added `prepare`
@@ -35,7 +35,7 @@ pnpm add -D husky lint-staged
 ```json
 {
   "scripts": {
-    "prepare": "husky install"
+    "prepare": "simple-git-hooks"
   }
 }
 ```

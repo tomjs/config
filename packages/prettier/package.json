@@ -1,38 +1,36 @@
 {
   "name": "@tomjs/prettier",
+  "type": "module",
   "version": "1.4.1",
   "description": "prettier config for tomjs",
-  "keywords": [
-    "lint",
-    "prettier",
-    "config"
-  ],
   "author": {
     "name": "Tom Gao",
     "email": "tom@tomgao.cc"
   },
   "license": "MIT",
+  "homepage": "https://github.com/tomjs/config/tree/main/packages/prettier#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tomjs/config.git",
     "directory": "packages/prettier"
   },
-  "homepage": "https://github.com/tomjs/config/tree/main/packages/prettier#readme",
-  "files": [
-    "es",
-    "lib"
+  "keywords": [
+    "lint",
+    "prettier",
+    "config"
   ],
-  "main": "./lib/index.js",
-  "module": "./es/index.js",
+  "exports": "./dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=16"
+  },
   "scripts": {
-    "build": "npm run clean && vite build",
-    "clean": "rimraf ./es ./lib",
+    "build": "tsdown",
     "prepublishOnly": "pnpm build"
   },
   "peerDependencies": {
     "prettier": ">=3.0.0"
-  },
-  "engines": {
-    "node": ">=16"
   }
 }

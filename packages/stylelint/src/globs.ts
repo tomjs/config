@@ -4,10 +4,6 @@
 export const GLOB_EXCLUDE = [
   '**/node_modules',
   '**/dist',
-  '**/package-lock.json',
-  '**/yarn.lock',
-  '**/pnpm-lock.yaml',
-  '**/bun.lockb',
 
   '**/output',
   '**/coverage',
@@ -27,12 +23,9 @@ export const GLOB_EXCLUDE = [
   '**/.output',
   '**/.vite-inspect',
   '**/.yarn',
-  '**/vite.config.*.timestamp-*',
 
   '**/CHANGELOG*.md',
   '**/*.min.*',
   '**/LICENSE*',
   '**/__snapshots__',
-  '**/auto-import?(s).d.ts',
-  '**/components.d.ts',
 ];

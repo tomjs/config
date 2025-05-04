@@ -1,42 +1,40 @@
 {
   "name": "@tomjs/commitlint",
+  "type": "module",
   "version": "3.3.0",
   "description": "commitlint config for tomjs",
-  "keywords": [
-    "commitlint",
-    "lint",
-    "config"
-  ],
   "author": {
     "name": "Tom Gao",
     "email": "tom@tomgao.cc"
   },
   "license": "MIT",
+  "homepage": "https://github.com/tomjs/config/tree/main/packages/commitlint#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tomjs/config.git",
     "directory": "packages/commitlint"
   },
-  "homepage": "https://github.com/tomjs/config/tree/main/packages/commitlint#readme",
-  "files": [
-    "es",
-    "lib"
+  "keywords": [
+    "commitlint",
+    "lint",
+    "config"
   ],
-  "main": "./lib/index.js",
-  "module": "./es/index.js",
-  "scripts": {
-    "build": "npm run clean && vite build",
-    "clean": "rimraf ./es ./lib",
-    "prepublishOnly": "pnpm build"
+  "exports": "./dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=18"
   },
-  "dependencies": {
-    "@commitlint/config-conventional": "^19.2.2"
+  "scripts": {
+    "build": "tsdown",
+    "prepublishOnly": "pnpm build"
   },
   "peerDependencies": {
     "@commitlint/cli": "^19.3.0"
   },
-  "engines": {
-    "node": ">=18"
+  "dependencies": {
+    "@commitlint/config-conventional": "^19.2.2"
   },
   "devDependencies": {
     "@commitlint/types": "^19.0.3"

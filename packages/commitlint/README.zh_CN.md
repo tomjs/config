@@ -14,20 +14,20 @@
 pnpm add -D @commitlint/cli @tomjs/commitlint
 ```
 
-- 修改 `.commitlintrc.{js,cjs}` 配置
+- 修改 `commitlint.config.{js,mjs,ts,mts}` 配置
 
 ```js
-module.exports = {
-  extends: [require.resolve('@tomjs/commitlint')],
+export default {
+  extends: ['@tomjs/commitlint'],
 };
 ```
 
 - 结合其他库
 
-结合 [husky](https://typicode.github.io/husky/) 和 [lint-staged](https://www.npmjs.com/package/lint-staged) 使用。
+结合 [simple-git-hooks](https://github.com/toplenboren/simple-git-hooks) 和 [lint-staged](https://www.npmjs.com/package/lint-staged) 使用。
 
 ```bash
-pnpm add -D husky lint-staged
+pnpm add -D simple-git-hooks lint-staged
 ```
 
 `package.json` 的 `scripts` 增加 `prepare`
@@ -35,7 +35,7 @@ pnpm add -D husky lint-staged
 ```json
 {
   "scripts": {
-    "prepare": "husky install"
+    "prepare": "simple-git-hooks"
   }
 }
 ```

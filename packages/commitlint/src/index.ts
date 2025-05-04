@@ -37,7 +37,9 @@ export default {
           const header = parsed.header || '';
           const length = header.length;
           return [
-            header.trim().startsWith('chore: release') ? true : length <= maxLength,
+            header.trim().startsWith('chore: release')
+              ? true
+              : length <= maxLength,
             `header must not be longer than ${maxLength} characters, current length is ${length}`,
           ];
         },

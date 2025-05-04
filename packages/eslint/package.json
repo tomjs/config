@@ -1,7 +1,19 @@
 {
   "name": "@tomjs/eslint",
+  "type": "module",
   "version": "4.4.0",
   "description": "eslint config for tomjs",
+  "author": {
+    "name": "Tom Gao",
+    "email": "tom@tomgao.cc"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/tomjs/config/tree/main/packages/commitlint#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomjs/config.git",
+    "directory": "packages/eslint"
+  },
   "keywords": [
     "eslint",
     "lint",
@@ -12,122 +24,30 @@
     "react",
     "hooks"
   ],
-  "author": {
-    "name": "Tom Gao",
-    "email": "tom@tomgao.cc"
-  },
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tomjs/config.git",
-    "directory": "packages/eslint"
-  },
-  "homepage": "https://github.com/tomjs/config/tree/main/packages/commitlint#readme",
-  "files": [
-    "es",
-    "lib"
-  ],
-  "main": "./lib/index.js",
-  "module": "./es/index.js",
   "exports": {
-    ".": {
-      "require": "./lib/index.js",
-      "import": "./es/index.js"
-    },
-    "./ts": {
-      "require": "./lib/typescript.js",
-      "import": "./es/typescript.js"
-    },
-    "./js": {
-      "require": "./lib/javascript.js",
-      "import": "./es/javascript.js"
-    },
-    "./vue": {
-      "require": "./lib/vue/typescript.js",
-      "import": "./es/vue/typescript.js"
-    },
-    "./vue/js": {
-      "require": "./lib/vue/javascript.js",
-      "import": "./es/vue/javascript.js"
-    },
-    "./vue2": {
-      "require": "./lib/vue2/typescript.js",
-      "import": "./es/vue2/typescript.js"
-    },
-    "./vue2/js": {
-      "require": "./lib/vue2/javascript.js",
-      "import": "./es/vue2/javascript.js"
-    },
-    "./react": {
-      "require": "./lib/react/typescript.js",
-      "import": "./es/react/typescript.js"
-    },
-    "./react/js": {
-      "require": "./lib/react/javascript.js",
-      "import": "./es/react/javascript.js"
-    },
-    "./node": {
-      "require": "./lib/node/typescript.js",
-      "import": "./es/node/typescript.js"
-    },
-    "./node/js": {
-      "require": "./lib/node/javascript.js",
-      "import": "./es/node/javascript.js"
-    },
-    "./browser": {
-      "require": "./lib/browser/typescript.js",
-      "import": "./es/browser/typescript.js"
-    },
-    "./browser/js": {
-      "require": "./lib/browser/javascript.js",
-      "import": "./es/browser/javascript.js"
-    }
+    "types": "./dist/index.d.ts",
+    "default": "./dist/index.js"
   },
-  "scripts": {
-    "build": "vite build",
-    "prepublishOnly": "pnpm build"
-  },
-  "dependencies": {
-    "@eslint/js": "^9.16.0",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-import-resolver-typescript": "^3.8.4",
-    "eslint-plugin-import": "^2.31.0",
-    "eslint-plugin-n": "^17.16.2",
-    "eslint-plugin-node-import": "^1.0.4",
-    "eslint-plugin-prettier": "^5.2.3",
-    "eslint-plugin-simple-import-sort": "^12.1.1",
-    "eslint-plugin-vue": "^10.0.0",
-    "globals": "^15.15.0",
-    "typescript-eslint": "^8.26.1",
-    "vue-eslint-parser": "^10.1.1"
-  },
-  "peerDependencies": {
-    "eslint": "^9.7.0",
-    "eslint-plugin-react": "^7.37.2",
-    "eslint-plugin-react-hooks": "^5.2.0",
-    "eslint-plugin-react-refresh": "^0.4.19",
-    "prettier": "^3.0.0",
-    "react": ">=17",
-    "typescript": "*"
-  },
-  "peerDependenciesMeta": {
-    "typescript": {
-      "optional": true
-    },
-    "react": {
-      "optional": true
-    },
-    "eslint-plugin-react": {
-      "optional": true
-    },
-    "eslint-plugin-react-hooks": {
-      "optional": true
-    },
-    "eslint-plugin-react-refresh": {
-      "optional": true
-    }
-  },
+  "files": [
+    "dist"
+  ],
   "engines": {
     "node": "^18.18.0 || ^20.9.0 || >=21.1.0"
+  },
+  "scripts": {
+    "build": "tsdown",
+    "prepublishOnly": "pnpm build"
+  },
+  "peerDependencies": {
+    "eslint": "^9.22.0"
+  },
+  "dependencies": {
+    "@antfu/eslint-config": "^4.12.0",
+    "eslint-flat-config-utils": "^2.0.1",
+    "eslint-plugin-format": "^1.0.1",
+    "lodash.merge": "^4.6.2"
+  },
+  "devDependencies": {
+    "@types/lodash.merge": "^4.6.9"
   }
 }

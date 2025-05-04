@@ -1,36 +1,30 @@
-import browserJs from './browser/javascript';
-import browser from './browser/typescript';
-import { GLOB_EXCLUDE } from './globs';
-import js from './javascript';
-import nodeJs from './node/javascript';
-import node from './node/typescript';
-import ts from './typescript';
-import vueJs from './vue/javascript';
-import vue from './vue/typescript';
-import vue2Js from './vue2/javascript';
-import vue2 from './vue2/typescript';
+import type { Awaitable, ConfigNames, TypedFlatConfigItem } from '@antfu/eslint-config';
+import type { Linter } from 'eslint';
+import type { FlatConfigComposer } from 'eslint-flat-config-utils';
+import type { OptionsConfig } from './types';
+import { antfu } from '@antfu/eslint-config';
+import merge from 'lodash.merge';
 
-export const meta = {
-  name: '@tomjs/eslint',
-  version: require('../package.json').version,
-};
+export * from './types';
 
-export { GLOB_EXCLUDE };
+/**
+ * Construct an array of ESLint flat config items. Based on [@antfu/eslint-config](https://github.com/antfu/eslint-config)
+ * @param options The options for generating the ESLint configurations.
+ * @param userConfigs The user configurations to be merged with the generated configurations.
+ * @returns The merged ESLint configurations.
+ */
+export function defineConfig(
+  options?: OptionsConfig & Omit<TypedFlatConfigItem, 'files'>,
+  ...userConfigs: Awaitable<TypedFlatConfigItem | TypedFlatConfigItem[] | FlatConfigComposer<any, any> | Linter.Config[]>[]
+): FlatConfigComposer<TypedFlatConfigItem, ConfigNames> {
+  const opts = merge({
+    stylistic: {
+      semi: true,
+    },
+    formatters: true,
+  } as OptionsConfig, options);
 
-export const configs = {
-  ts,
-  js,
-  node,
-  'node/js': nodeJs,
-  vue,
-  'vue/js': vueJs,
-  vue2,
-  'vue2/js': vue2Js,
-  browser,
-  'browser/js': browserJs,
-};
+  return antfu(opts, ...userConfigs);
+}
 
-export default {
-  meta,
-  configs,
-};
+export default defineConfig;

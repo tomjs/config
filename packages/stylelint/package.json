@@ -1,7 +1,19 @@
 {
   "name": "@tomjs/stylelint",
+  "type": "module",
   "version": "4.0.2",
   "description": "stylelint config for tomjs",
+  "author": {
+    "name": "Tom Gao",
+    "email": "tom@tomgao.cc"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/tomjs/config/tree/main/packages/stylelint#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomjs/config.git",
+    "directory": "packages/stylelint"
+  },
   "keywords": [
     "stylelint",
     "lint",
@@ -12,36 +24,28 @@
     "scss",
     "vue"
   ],
-  "author": {
-    "name": "Tom Gao",
-    "email": "tom@tomgao.cc"
+  "exports": {
+    ".": "./dist/index.js",
+    "./config": "./dist/config.js"
   },
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tomjs/config.git",
-    "directory": "packages/stylelint"
-  },
-  "homepage": "https://github.com/tomjs/config/tree/main/packages/stylelint#readme",
   "files": [
     "dist"
   ],
-  "main": "./dist/index.cjs",
-  "module": "./dist/index.mjs",
-  "exports": {
-    ".": {
-      "require": "./dist/index.cjs",
-      "import": "./dist/index.mjs"
-    },
-    "./config": {
-      "require": "./dist/config.cjs",
-      "import": "./dist/config.mjs"
-    }
+  "engines": {
+    "node": ">=18.12.0"
   },
   "scripts": {
-    "build": "npm run clean && rolldown -c",
-    "clean": "rimraf ./dist",
+    "build": "tsdown",
     "prepublishOnly": "pnpm build"
+  },
+  "peerDependencies": {
+    "prettier": "^3.0.0",
+    "stylelint": "^16.8.2"
+  },
+  "peerDependenciesMeta": {
+    "prettier": {
+      "optional": true
+    }
   },
   "dependencies": {
     "postcss": "^8.5.3",
@@ -53,17 +57,5 @@
     "stylelint-config-recommended-scss": "^14.1.0",
     "stylelint-config-recommended-vue": "~1.5.0",
     "stylelint-prettier": "^5.0.3"
-  },
-  "peerDependencies": {
-    "prettier": "^3.0.0",
-    "stylelint": "^16.8.2"
-  },
-  "peerDependenciesMeta": {
-    "prettier": {
-      "optional": true
-    }
-  },
-  "engines": {
-    "node": ">=18.12.0"
   }
 }
