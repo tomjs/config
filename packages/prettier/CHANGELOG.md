@@ -1,3 +1,8 @@
+## [2.0.0](https://github.com/tomjs/config/compare/%40tomjs%2Fprettier%401.4.1...prettier%402.0.0) (2025-05-04)
+
+- feat: use tsdown replace vite and use @antfu/eslint-config  [e510df1](https://github.com/tomjs/config/commit/e510df1)
+- chore: add prepublishOnly script for release  [d78eb9f](https://github.com/tomjs/config/commit/d78eb9f)
+
 ## [1.4.1](https://github.com/tomjs/config/compare/%40tomjs%2Fprettier%401.4.0...%40tomjs%2Fprettier%401.4.1) (2024-05-17)
 
 - chore: remove types [ce8ca81](https://github.com/tomjs/config/commit/ce8ca81)

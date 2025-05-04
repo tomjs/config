@@ -1,3 +1,7 @@
+## [5.0.0](https://github.com/tomjs/config/compare/eslint%404.4.0...eslint%405.0.0) (2025-05-04)
+
+- feat: use tsdown replace vite and use @antfu/eslint-config  [e510df1](https://github.com/tomjs/config/commit/e510df1)
+
 ## [4.4.0](https://github.com/tomjs/config/compare/eslint%404.3.0...eslint%404.4.0) (2025-03-11)
 
 - feat: export GLOB_EXCLUDE [460d3de](https://github.com/tomjs/config/commit/460d3de)

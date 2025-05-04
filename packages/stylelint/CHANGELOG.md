@@ -1,3 +1,7 @@
+## [5.0.0](https://github.com/tomjs/config/compare/stylelint%404.0.2...stylelint%405.0.0) (2025-05-04)
+
+- feat: use tsdown replace vite and use @antfu/eslint-config  [e510df1](https://github.com/tomjs/config/commit/e510df1)
+
 ## [4.0.2](https://github.com/tomjs/config/compare/stylelint%404.0.1...stylelint%404.0.2) (2025-03-25)
 
 - feat: vue config lock version [906a316](https://github.com/tomjs/config/commit/906a316)

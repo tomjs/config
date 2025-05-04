@@ -1,3 +1,7 @@
+## [1.7.2](https://github.com/tomjs/config/compare/tsconfig%401.7.1...tsconfig%401.7.2) (2025-05-04)
+
+- feat: use tsdown replace vite and use @antfu/eslint-config  [e510df1](https://github.com/tomjs/config/commit/e510df1)
+
 ## [1.7.1](https://github.com/tomjs/config/compare/tsconfig%401.7.0...tsconfig%401.7.1) (2024-07-11)
 
 - chore: remove decorator options [d58ff26](https://github.com/tomjs/config/commit/d58ff26)

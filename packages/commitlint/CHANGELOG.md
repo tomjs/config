@@ -1,3 +1,9 @@
+## [4.0.0](https://github.com/tomjs/config/compare/commitlint%403.3.0...commitlint%404.0.0) (2025-05-04)
+
+- feat: use tsdown replace vite and use @antfu/eslint-config  [e510df1](https://github.com/tomjs/config/commit/e510df1)
+- chore: add prepublishOnly script for release  [d78eb9f](https://github.com/tomjs/config/commit/d78eb9f)
+- docs: fix changelog tag name  [f3beffe](https://github.com/tomjs/config/commit/f3beffe)
+
 ## [3.3.0](https://github.com/tomjs/config/compare/%40tomjs%2Fcommitlint%403.2.0...commitlint%403.3.0) (2024-05-30)
 
 - feat: add header-max-length-plus rule [b7d2e1c](https://github.com/tomjs/config/commit/b7d2e1c)
