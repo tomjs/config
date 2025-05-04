@@ -11,13 +11,13 @@ Take `pnpm` as an example
 ### General
 
 ```bash
-pnpm add -D eslint prettier @tomjs/eslint @tomjs/prettier @tomjs/tsconfig
+pnpm add -D eslint @tomjs/eslint @tomjs/tsconfig
 ```
 
 ### commitlint
 
 ```bash
-pnpm add -D husky lint-staged @commitlint/cli @tomjs/commitlint
+pnpm add -D simple-git-hooks lint-staged @commitlint/cli @tomjs/commitlint
 ```
 
 ### style
