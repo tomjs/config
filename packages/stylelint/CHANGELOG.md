@@ -1,3 +1,7 @@
+## [6.0.0](https://github.com/tomjs/config/compare/stylelint%405.0.0...stylelint%406.0.0) (2025-05-04)
+
+- feat: remove prettier  [17d6f3a](https://github.com/tomjs/config/commit/17d6f3a)
+
 ## [5.0.0](https://github.com/tomjs/config/compare/stylelint%404.0.2...stylelint%405.0.0) (2025-05-04)
 
 - feat: use tsdown replace vite and use @antfu/eslint-config  [e510df1](https://github.com/tomjs/config/commit/e510df1)
