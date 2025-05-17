@@ -1,3 +1,7 @@
+## [2.0.0](https://github.com/tomjs/config/compare/tsconfig%401.7.2...tsconfig%402.0.0) (2025-05-17)
+
+- feat: change moduleResolution node > bundler  [a288391](https://github.com/tomjs/config/commit/a288391)
+
 ## [1.7.2](https://github.com/tomjs/config/compare/tsconfig%401.7.1...tsconfig%401.7.2) (2025-05-04)
 
 - feat: use tsdown replace vite and use @antfu/eslint-config  [e510df1](https://github.com/tomjs/config/commit/e510df1)
