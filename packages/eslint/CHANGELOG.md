@@ -1,3 +1,7 @@
+## [5.1.0](https://github.com/tomjs/config/compare/eslint%405.0.0...eslint%405.1.0) (2025-05-22)
+
+- feat: disable process rule  [e0f8e8c](https://github.com/tomjs/config/commit/e0f8e8c)
+
 ## [5.0.0](https://github.com/tomjs/config/compare/eslint%404.4.0...eslint%405.0.0) (2025-05-04)
 
 - feat: use tsdown replace vite and use @antfu/eslint-config  [e510df1](https://github.com/tomjs/config/commit/e510df1)
