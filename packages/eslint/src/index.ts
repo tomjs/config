@@ -22,6 +22,9 @@ export function defineConfig(
       semi: true,
     },
     formatters: true,
+    rules: {
+      'n/prefer-global/process': 'off',
+    },
   } as OptionsConfig, options);
 
   return antfu(opts, ...userConfigs);
