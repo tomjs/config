@@ -39,10 +39,10 @@
     "prepublishOnly": "pnpm build"
   },
   "peerDependencies": {
+    "@antfu/eslint-config": "^4.12.0",
     "eslint": "^9.22.0"
   },
   "dependencies": {
-    "@antfu/eslint-config": "^4.12.0",
     "eslint-flat-config-utils": "^2.0.1",
     "eslint-plugin-format": "^1.0.1",
     "lodash.merge": "^4.6.2"

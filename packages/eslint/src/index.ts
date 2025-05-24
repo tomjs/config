@@ -24,8 +24,11 @@ export function defineConfig(
     formatters: true,
     rules: {
       'n/prefer-global/process': 'off',
+
+      'no-console': 'warn',
+      'no-debugger': 'warn',
     },
-  } as OptionsConfig, options);
+  } as Omit<TypedFlatConfigItem, 'files'>, options);
 
   return antfu(opts, ...userConfigs);
 }
