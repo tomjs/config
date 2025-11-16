@@ -1,3 +1,8 @@
+## [5.0.0](https://github.com/tomjs/config/compare/commitlint%404.0.0...commitlint%405.0.0) (2025-11-16)
+
+- chore: update commitlint deps  [bb92dfa](https://github.com/tomjs/config/commit/bb92dfa)
+- chore: update tsdown  [a539442](https://github.com/tomjs/config/commit/a539442)
+
 ## [4.0.0](https://github.com/tomjs/config/compare/commitlint%403.3.0...commitlint%404.0.0) (2025-05-04)
 
 - feat: use tsdown replace vite and use @antfu/eslint-config  [e510df1](https://github.com/tomjs/config/commit/e510df1)
