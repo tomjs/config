@@ -24,7 +24,7 @@
     "scss",
     "vue"
   ],
-  "exports": "./dist/index.js",
+  "exports": "./dist/index.mjs",
   "files": [
     "dist"
   ],
