@@ -1,3 +1,8 @@
+## [6.0.0](https://github.com/tomjs/config/compare/eslint%405.2.0...eslint%406.0.0) (2025-11-16)
+
+- chore: update eslint deps  [e8c651e](https://github.com/tomjs/config/commit/e8c651e)
+- chore: update tsdown  [a539442](https://github.com/tomjs/config/commit/a539442)
+
 ## [5.2.0](https://github.com/tomjs/config/compare/eslint%405.1.0...eslint%405.2.0) (2025-05-24)
 
 - feat: console and debugger change to warn  [8d50e1d](https://github.com/tomjs/config/commit/8d50e1d)
