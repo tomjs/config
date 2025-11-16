@@ -1,3 +1,7 @@
+## [2.1.0](https://github.com/tomjs/config/compare/prettier%402.0.0...prettier%402.1.0) (2025-11-16)
+
+- chore: update tsdown  [a539442](https://github.com/tomjs/config/commit/a539442)
+
 ## [2.0.0](https://github.com/tomjs/config/compare/%40tomjs%2Fprettier%401.4.1...prettier%402.0.0) (2025-05-04)
 
 - feat: use tsdown replace vite and use @antfu/eslint-config  [e510df1](https://github.com/tomjs/config/commit/e510df1)
