@@ -1,7 +1,7 @@
 {
   "name": "@tomjs/stylelint",
   "type": "module",
-  "version": "6.0.0",
+  "version": "7.0.0",
   "description": "stylelint config for tomjs",
   "author": {
     "name": "Tom Gao",

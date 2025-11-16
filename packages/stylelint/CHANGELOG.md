@@ -1,3 +1,8 @@
+## [7.0.0](https://github.com/tomjs/config/compare/stylelint%406.0.0...stylelint%407.0.0) (2025-11-16)
+
+- feat: add uniapp stylelint config and update deps  [dac7ff7](https://github.com/tomjs/config/commit/dac7ff7)
+- chore: update tsdown  [a539442](https://github.com/tomjs/config/commit/a539442)
+
 ## [6.0.0](https://github.com/tomjs/config/compare/stylelint%405.0.0...stylelint%406.0.0) (2025-05-04)
 
 - feat: remove prettier  [17d6f3a](https://github.com/tomjs/config/commit/17d6f3a)
