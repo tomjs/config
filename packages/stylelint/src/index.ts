@@ -1,22 +1,36 @@
 import type { Config } from 'stylelint';
-import { GLOB_EXCLUDE } from './globs';
+import { IGNORE_FILES } from './globs';
 
 const config: Config = {
-  extends: [
-    'stylelint-config-recommended',
-    'stylelint-config-recommended-scss',
-    'stylelint-config-recommended-vue/scss',
-    'stylelint-config-html/vue',
-    'stylelint-config-recess-order',
-  ],
+  extends: ['stylelint-config-recommended', 'stylelint-config-recess-order'],
+  plugins: ['stylelint-order', 'stylelint-scss'],
+  ignoreFiles: [...IGNORE_FILES],
   overrides: [
     {
-      files: ['**/*.{vue,html}'],
       customSyntax: 'postcss-html',
+      files: ['*.(html|vue)', '**/*.(html|vue)'],
+      rules: {
+        'selector-pseudo-class-no-unknown': [
+          true,
+          {
+            ignorePseudoClasses: ['global', 'deep'],
+          },
+        ],
+        'selector-pseudo-element-no-unknown': [
+          true,
+          {
+            ignorePseudoElements: ['v-deep', 'v-global', 'v-slotted'],
+          },
+        ],
+      },
     },
     {
-      files: ['**/*.{css,scss}'],
+      files: ['*.scss', '**/*.scss'],
       customSyntax: 'postcss-scss',
+      extends: [
+        'stylelint-config-recommended-scss',
+        'stylelint-config-recommended-vue/scss',
+      ],
     },
   ],
   rules: {
@@ -37,14 +51,33 @@ const config: Config = {
     ],
     'selector-class-pattern': null,
     'selector-not-notation': null,
-    'selector-pseudo-class-no-unknown': [
+    'at-rule-no-unknown': [
       true,
       {
-        ignorePseudoClasses: ['global', 'deep'],
+        ignoreAtRules: [
+          'extends',
+          'ignores',
+          'include',
+          'mixin',
+          'if',
+          'else',
+          'media',
+          'for',
+          'at-root',
+          'tailwind',
+          'apply',
+          'variants',
+          'responsive',
+          'screen',
+          'function',
+          'each',
+          'use',
+          'forward',
+          'return',
+        ],
       },
     ],
   },
-  ignoreFiles: [...GLOB_EXCLUDE, '**/*.js', '**/*.jsx', '**/*.tsx', '**/*.ts'],
 };
 
 export default config;
