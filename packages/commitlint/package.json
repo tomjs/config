@@ -31,12 +31,12 @@
     "prepublishOnly": "pnpm build"
   },
   "peerDependencies": {
-    "@commitlint/cli": "^19.3.0"
+    "@commitlint/cli": "^20.1.0"
   },
   "dependencies": {
-    "@commitlint/config-conventional": "^19.2.2"
+    "@commitlint/config-conventional": "^20.0.0"
   },
   "devDependencies": {
-    "@commitlint/types": "^19.0.3"
+    "@commitlint/types": "^20.0.0"
   }
 }
