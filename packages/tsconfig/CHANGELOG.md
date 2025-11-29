@@ -1,3 +1,7 @@
+## [2.1.0](https://github.com/tomjs/config/compare/tsconfig%402.0.0...tsconfig%402.1.0) (2025-11-29)
+
+- feat: add more config  [c825646](https://github.com/tomjs/config/commit/c825646)
+
 ## [2.0.0](https://github.com/tomjs/config/compare/tsconfig%401.7.2...tsconfig%402.0.0) (2025-05-17)
 
 - feat: change moduleResolution node > bundler  [a288391](https://github.com/tomjs/config/commit/a288391)
