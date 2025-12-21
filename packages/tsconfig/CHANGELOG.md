@@ -1,3 +1,7 @@
+## [2.2.0](https://github.com/tomjs/config/compare/tsconfig%402.1.0...tsconfig%402.2.0) (2025-12-21)
+
+- feat: add noUncheckedIndexedAccess option  [8dac734](https://github.com/tomjs/config/commit/8dac734)
+
 ## [2.1.0](https://github.com/tomjs/config/compare/tsconfig%402.0.0...tsconfig%402.1.0) (2025-11-29)
 
 - feat: add more config  [c825646](https://github.com/tomjs/config/commit/c825646)
