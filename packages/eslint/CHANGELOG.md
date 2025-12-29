@@ -1,3 +1,7 @@
+## [6.1.0](https://github.com/tomjs/config/compare/eslint%406.0.0...eslint%406.1.0) (2025-12-29)
+
+- feat: turn off pnpm rule  [e9c48a3](https://github.com/tomjs/config/commit/e9c48a3)
+
 ## [6.0.0](https://github.com/tomjs/config/compare/eslint%405.2.0...eslint%406.0.0) (2025-11-16)
 
 - chore: update eslint deps  [e8c651e](https://github.com/tomjs/config/commit/e8c651e)
