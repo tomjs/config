@@ -27,6 +27,10 @@ export function defineConfig(
 
       'no-console': 'warn',
       'no-debugger': 'warn',
+
+      'antfu/no-top-level-await': 'off',
+      'jsonc/sort-array-values': 'off',
+      'pnpm/yaml-enforce-settings': 'off',
     },
   } as Omit<TypedFlatConfigItem, 'files'>, options);
 
