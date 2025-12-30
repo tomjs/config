@@ -31,6 +31,8 @@ export function defineConfig(
       'antfu/no-top-level-await': 'off',
       'jsonc/sort-array-values': 'off',
       'pnpm/yaml-enforce-settings': 'off',
+
+      'ts/ban-ts-comment': 'off',
     },
   } as Omit<TypedFlatConfigItem, 'files'>, options);
 
