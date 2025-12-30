@@ -1,3 +1,7 @@
+## [6.2.0](https://github.com/tomjs/config/compare/eslint%406.1.0...eslint%406.2.0) (2025-12-30)
+
+- feat: disable ts/ban-ts-comment  [e4b3c46](https://github.com/tomjs/config/commit/e4b3c46)
+
 ## [6.1.0](https://github.com/tomjs/config/compare/eslint%406.0.0...eslint%406.1.0) (2025-12-29)
 
 - feat: turn off pnpm rule  [e9c48a3](https://github.com/tomjs/config/commit/e9c48a3)
