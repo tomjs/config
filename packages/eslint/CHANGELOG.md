@@ -1,3 +1,7 @@
+## [6.3.0](https://github.com/tomjs/config/compare/eslint%406.2.0...eslint%406.3.0) (2025-12-31)
+
+- feat: turn off no-console rule  [ce0b7a7](https://github.com/tomjs/config/commit/ce0b7a7)
+
 ## [6.2.0](https://github.com/tomjs/config/compare/eslint%406.1.0...eslint%406.2.0) (2025-12-30)
 
 - feat: disable ts/ban-ts-comment  [e4b3c46](https://github.com/tomjs/config/commit/e4b3c46)
