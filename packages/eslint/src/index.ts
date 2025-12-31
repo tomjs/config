@@ -25,7 +25,7 @@ export function defineConfig(
     rules: {
       'n/prefer-global/process': 'off',
 
-      'no-console': 'warn',
+      'no-console': 'off',
       'no-debugger': 'warn',
 
       'antfu/no-top-level-await': 'off',
