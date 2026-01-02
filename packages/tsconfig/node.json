@@ -2,17 +2,27 @@
   "$schema": "https://json.schemastore.org/tsconfig",
   "display": "node config",
   "compilerOptions": {
-    "lib": ["ESNext"],
+    "target": "ES2023",
+    "lib": [
+      "ES2023"
+    ],
     "module": "ESNext",
-    "target": "ES2021",
-
-    "strict": true,
-    "esModuleInterop": true,
+    "types": [
+      "node"
+    ],
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
+    /* Bundler mode */
     "moduleResolution": "bundler",
-    "noImplicitAny": false,
-    "resolveJsonModule": true,
-    "noUncheckedIndexedAccess": false
+    "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "erasableSyntaxOnly": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedSideEffectImports": true
   }
 }

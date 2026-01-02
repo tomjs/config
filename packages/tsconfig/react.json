@@ -1,9 +1,24 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
-  "extends": "./vue.json",
   "display": "react config",
   "compilerOptions": {
-    "jsxImportSource": "react",
-    "jsx": "react-jsx"
+    "target": "ES2022",
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "skipLibCheck": true,
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "jsx": "react-jsx",
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "erasableSyntaxOnly": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedSideEffectImports": true
   }
 }

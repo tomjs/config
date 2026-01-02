@@ -1,7 +1,7 @@
 {
   // Disable the default formatter, use eslint instead
   "prettier.enable": false,
-  "editor.formatOnSave": false,
+  "editor.formatOnSave": true,
   // Auto fix
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit",
@@ -9,17 +9,50 @@
   },
   // Silent the stylistic rules in you IDE, but still auto fix them
   "eslint.rules.customizations": [
-    { "rule": "style/*", "severity": "warn" },
-    { "rule": "format/*", "severity": "warn" },
-    { "rule": "jsonc/indent", "severity": "warn" },
-    { "rule": "*-indent", "severity": "warn" },
-    { "rule": "*-spacing", "severity": "warn" },
-    { "rule": "*-spaces", "severity": "warn" },
-    { "rule": "*-order", "severity": "warn" },
-    { "rule": "*-dangle", "severity": "warn" },
-    { "rule": "*-newline", "severity": "warn" },
-    { "rule": "*quotes", "severity": "warn" },
-    { "rule": "*semi", "severity": "warn" }
+    {
+      "rule": "style/*",
+      "severity": "warn"
+    },
+    {
+      "rule": "format/*",
+      "severity": "warn"
+    },
+    {
+      "rule": "jsonc/indent",
+      "severity": "warn"
+    },
+    {
+      "rule": "*-indent",
+      "severity": "warn"
+    },
+    {
+      "rule": "*-spacing",
+      "severity": "warn"
+    },
+    {
+      "rule": "*-spaces",
+      "severity": "warn"
+    },
+    {
+      "rule": "*-order",
+      "severity": "warn"
+    },
+    {
+      "rule": "*-dangle",
+      "severity": "warn"
+    },
+    {
+      "rule": "*-newline",
+      "severity": "warn"
+    },
+    {
+      "rule": "*quotes",
+      "severity": "warn"
+    },
+    {
+      "rule": "*semi",
+      "severity": "warn"
+    }
   ],
   // Enable eslint for all supported languages
   "eslint.validate": [
@@ -29,6 +62,7 @@
     "json"
   ],
   "files.associations": {
-    "packages/tsconfig/*.json": "jsonc"
+    "package.json": "json",
+    "*.json": "jsonc"
   }
 }
