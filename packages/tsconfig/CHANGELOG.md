@@ -1,3 +1,7 @@
+## [3.0.1](https://github.com/tomjs/config/compare/tsconfig%403.0.0...tsconfig%403.0.1) (2026-01-02)
+
+- fix: extends path  [cf53b88](https://github.com/tomjs/config/commit/cf53b88)
+
 ## [3.0.0](https://github.com/tomjs/config/compare/tsconfig%402.2.0...tsconfig%403.0.0) (2026-01-02)
 
 - feat: update tsconfig  [cb5b14e](https://github.com/tomjs/config/commit/cb5b14e)

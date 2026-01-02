@@ -1,6 +1,6 @@
 {
   "name": "@tomjs/tsconfig",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "typescript config for tomjs",
   "author": {
     "name": "Tom Gao",
