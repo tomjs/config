@@ -4,7 +4,6 @@
   "display": "vue config",
   "compilerOptions": {
     /* Linting */
-    "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "erasableSyntaxOnly": true,
