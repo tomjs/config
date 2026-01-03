@@ -1,68 +1,92 @@
 {
+  "files.associations": {
+    "package.json": "json",
+    "*.json": "jsonc"
+  },
+
   // Disable the default formatter, use eslint instead
   "prettier.enable": false,
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
   // Auto fix
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit",
     "source.organizeImports": "never"
   },
-  // Silent the stylistic rules in you IDE, but still auto fix them
+  // Silent the stylistic rules in your IDE, but still auto fix them
   "eslint.rules.customizations": [
     {
       "rule": "style/*",
-      "severity": "warn"
+      "severity": "off",
+      "fixable": true
     },
     {
       "rule": "format/*",
-      "severity": "warn"
-    },
-    {
-      "rule": "jsonc/indent",
-      "severity": "warn"
+      "severity": "off",
+      "fixable": true
     },
     {
       "rule": "*-indent",
-      "severity": "warn"
+      "severity": "off",
+      "fixable": true
     },
     {
       "rule": "*-spacing",
-      "severity": "warn"
+      "severity": "off",
+      "fixable": true
     },
     {
       "rule": "*-spaces",
-      "severity": "warn"
+      "severity": "off",
+      "fixable": true
     },
     {
       "rule": "*-order",
-      "severity": "warn"
+      "severity": "off",
+      "fixable": true
     },
     {
       "rule": "*-dangle",
-      "severity": "warn"
+      "severity": "off",
+      "fixable": true
     },
     {
       "rule": "*-newline",
-      "severity": "warn"
+      "severity": "off",
+      "fixable": true
     },
     {
       "rule": "*quotes",
-      "severity": "warn"
+      "severity": "off",
+      "fixable": true
     },
     {
       "rule": "*semi",
-      "severity": "warn"
+      "severity": "off",
+      "fixable": true
     }
   ],
   // Enable eslint for all supported languages
   "eslint.validate": [
     "javascript",
+    "javascriptreact",
     "typescript",
+    "typescriptreact",
+    "vue",
+    "html",
     "markdown",
-    "json"
-  ],
-  "files.associations": {
-    "package.json": "json",
-    "*.json": "jsonc"
-  }
+    "json",
+    "jsonc",
+    "yaml",
+    "toml",
+    "xml",
+    "gql",
+    "graphql",
+    "astro",
+    "svelte",
+    "css",
+    "less",
+    "scss",
+    "pcss",
+    "postcss"
+  ]
 }
