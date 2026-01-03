@@ -1,3 +1,7 @@
+## [6.4.0](https://github.com/tomjs/config/compare/eslint%406.3.0...eslint%406.4.0) (2026-01-03)
+
+- feat: update deps  [f0ea0df](https://github.com/tomjs/config/commit/f0ea0df)
+
 ## [6.3.0](https://github.com/tomjs/config/compare/eslint%406.2.0...eslint%406.3.0) (2025-12-31)
 
 - feat: turn off no-console rule  [ce0b7a7](https://github.com/tomjs/config/commit/ce0b7a7)
