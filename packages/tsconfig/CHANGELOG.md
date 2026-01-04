@@ -1,3 +1,7 @@
+## [3.1.0](https://github.com/tomjs/config/compare/tsconfig%403.0.1...tsconfig%403.1.0) (2026-01-04)
+
+- feat: remove "strict": true,  [15da1a3](https://github.com/tomjs/config/commit/15da1a3)
+
 ## [3.0.1](https://github.com/tomjs/config/compare/tsconfig%403.0.0...tsconfig%403.0.1) (2026-01-02)
 
 - fix: extends path  [cf53b88](https://github.com/tomjs/config/commit/cf53b88)
