@@ -1,3 +1,7 @@
+## [6.5.0](https://github.com/tomjs/config/compare/eslint%406.4.0...eslint%406.5.0) (2026-01-06)
+
+- chore: update deps  [aba0c62](https://github.com/tomjs/config/commit/aba0c62)
+
 ## [6.4.0](https://github.com/tomjs/config/compare/eslint%406.3.0...eslint%406.4.0) (2026-01-03)
 
 - feat: update deps  [f0ea0df](https://github.com/tomjs/config/commit/f0ea0df)
