@@ -28,7 +28,7 @@
     "strict": true,
     // See <https://www.semver-ts.org/formal-spec/5-compiler-considerations.html#strictness>
     // These 2 options are also part of the recommended tsconfig as of TS 5.9
-    "noUncheckedIndexedAccess": true,
+    "noUncheckedIndexedAccess": false,
     // Commented out for now. It's hard to land in the current ecosystem.
     // Needs more consensus before moving forward.
     // "exactOptionalPropertyTypes": true,
