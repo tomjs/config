@@ -1,3 +1,7 @@
+## [3.2.0](https://github.com/tomjs/config/compare/tsconfig%403.1.0...tsconfig%403.2.0) (2026-01-06)
+
+- feat: turn off noUncheckedIndexedAccess  [d0512be](https://github.com/tomjs/config/commit/d0512be)
+
 ## [3.1.0](https://github.com/tomjs/config/compare/tsconfig%403.0.1...tsconfig%403.1.0) (2026-01-04)
 
 - feat: remove "strict": true,  [15da1a3](https://github.com/tomjs/config/commit/15da1a3)
