@@ -34,7 +34,7 @@ export function defineConfig(
 
       'ts/ban-ts-comment': 'off',
     },
-  } as Omit<TypedFlatConfigItem, 'files'>, options);
+  } as OptionsConfig & Omit<TypedFlatConfigItem, 'files'>, options);
 
   return antfu(opts, ...userConfigs);
 }
