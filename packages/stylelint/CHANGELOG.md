@@ -1,3 +1,7 @@
+## [7.1.0](https://github.com/tomjs/config/compare/stylelint%407.0.0...stylelint%407.1.0) (2026-01-07)
+
+- feat: 导出 IGNORE_FILES  [ae2599e](https://github.com/tomjs/config/commit/ae2599e)
+
 ## [7.0.0](https://github.com/tomjs/config/compare/stylelint%406.0.0...stylelint%407.0.0) (2025-11-16)
 
 - feat: add uniapp stylelint config and update deps  [dac7ff7](https://github.com/tomjs/config/commit/dac7ff7)
