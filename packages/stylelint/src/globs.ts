@@ -1,5 +1,7 @@
+// copied from https://github.com/antfu/eslint-config/blob/5af1d9bf96609ab1d0a820cee0f83cd6948a0c5d/src/globs.ts#L56C14-L56C26
+
 /**
- * https://github.com/antfu/eslint-config/blob/5af1d9bf96609ab1d0a820cee0f83cd6948a0c5d/src/globs.ts#L56C14-L56C26
+ * stylelint ignore files
  */
 export const IGNORE_FILES = [
   '**/node_modules/**',
