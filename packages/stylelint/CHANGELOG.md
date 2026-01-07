@@ -1,3 +1,7 @@
+## [7.1.1](https://github.com/tomjs/config/compare/stylelint%407.1.0...stylelint%407.1.1) (2026-01-07)
+
+- feat: change IGNORE_FILES comments  [f60ffa1](https://github.com/tomjs/config/commit/f60ffa1)
+
 ## [7.1.0](https://github.com/tomjs/config/compare/stylelint%407.0.0...stylelint%407.1.0) (2026-01-07)
 
 - feat: 导出 IGNORE_FILES  [ae2599e](https://github.com/tomjs/config/commit/ae2599e)
