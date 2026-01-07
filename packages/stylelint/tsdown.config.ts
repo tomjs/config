@@ -6,8 +6,9 @@ export default defineConfig({
   clean: true,
   skipNodeModulesBundle: true,
   shims: true,
-  dts: false,
+  dts: true,
   publint: true,
+  fixedExtension: false,
   outputOptions: {
     exports: 'named',
   },

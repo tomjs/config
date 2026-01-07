@@ -1,6 +1,8 @@
 import type { Config } from 'stylelint';
 import { IGNORE_FILES } from './globs';
 
+export * from './globs';
+
 const config: Config = {
   extends: ['stylelint-config-recommended', 'stylelint-config-recess-order'],
   plugins: ['stylelint-order', 'stylelint-scss'],

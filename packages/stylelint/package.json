@@ -25,9 +25,17 @@
     "vue"
   ],
   "exports": {
-    ".": "./dist/index.mjs",
-    "./uniapp": "./dist/uniapp.mjs"
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./uniapp": {
+      "types": "./dist/uniapp.d.ts",
+      "import": "./dist/uniapp.js"
+    }
   },
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "files": [
     "dist"
   ],
