@@ -1,3 +1,8 @@
+## [7.0.0](https://github.com/tomjs/config/compare/eslint%406.5.0...eslint%407.0.0) (2026-01-16)
+
+- feat: support antfu v7  [6e11b4e](https://github.com/tomjs/config/commit/6e11b4e)
+- fix: fix types  [0f83220](https://github.com/tomjs/config/commit/0f83220)
+
 ## [6.5.0](https://github.com/tomjs/config/compare/eslint%406.4.0...eslint%406.5.0) (2026-01-06)
 
 - chore: update deps  [aba0c62](https://github.com/tomjs/config/commit/aba0c62)
