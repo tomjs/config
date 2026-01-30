@@ -24,6 +24,14 @@ const config: Config = {
             ignorePseudoElements: ['v-deep', 'v-global', 'v-slotted'],
           },
         ],
+        'declaration-property-value-no-unknown': [
+          true,
+          {
+            ignoreProperties: {
+              '/.*/': ['/^v-bind\\(/'],
+            },
+          },
+        ],
       },
     },
     {

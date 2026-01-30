@@ -23,6 +23,9 @@ importers:
       '@tomjs/prettier':
         specifier: workspace:^
         version: link:packages/prettier
+      '@tomjs/stylelint':
+        specifier: workspace:*
+        version: link:packages/stylelint
       '@tomjs/tsconfig':
         specifier: workspace:^
         version: link:packages/tsconfig
@@ -47,6 +50,9 @@ importers:
       simple-git-hooks:
         specifier: ^2.13.1
         version: 2.13.1
+      stylelint:
+        specifier: ^17.0.0
+        version: 17.0.0(typescript@5.9.3)
       tsdown:
         specifier: ^0.19.0
         version: 0.19.0(publint@0.3.16)(synckit@0.11.11)(typescript@5.9.3)
@@ -110,8 +116,8 @@ importers:
         specifier: ^17.0.0
         version: 17.0.0(typescript@5.9.3)
       stylelint-config-recess-order:
-        specifier: ^7.4.0
-        version: 7.4.0(stylelint-order@7.0.1(stylelint@17.0.0(typescript@5.9.3)))(stylelint@17.0.0(typescript@5.9.3))
+        specifier: ^7.6.0
+        version: 7.6.0(stylelint-order@7.0.1(stylelint@17.0.0(typescript@5.9.3)))(stylelint@17.0.0(typescript@5.9.3))
       stylelint-config-recommended:
         specifier: ^18.0.0
         version: 18.0.0(stylelint@17.0.0(typescript@5.9.3))
@@ -1821,10 +1827,6 @@ packages:
     resolution: {integrity: sha512-f2dvO0VU6Oej7RkWJGrehjbzMAjFp5/VKPp5tTpWIV4JHHZK1/BxbFRtf/siA2SWTe09caDmVtYYzWEIbBS4zw==}
     engines: {node: '>= 0.4.0'}
 
-  hashery@1.2.0:
-    resolution: {integrity: sha512-43XJKpwle72Ik5Zpam7MuzRWyNdwwdf6XHlh8wCj2PggvWf+v/Dm5B0dxGZOmddidgeO6Ofu9As/o231Ti/9PA==}
-    engines: {node: '>=20'}
-
   hashery@1.4.0:
     resolution: {integrity: sha512-Wn2i1In6XFxl8Az55kkgnFRiAlIAushzh26PTjL2AKtQcEfXrcLa7Hn5QOWGZEf3LU057P9TwwZjFyxfS1VuvQ==}
     engines: {node: '>=20'}
@@ -1835,9 +1837,6 @@ packages:
 
   hookable@6.0.1:
     resolution: {integrity: sha512-uKGyY8BuzN/a5gvzvA+3FVWo0+wUjgtfSdnmjtrOVwQCZPHpHDH2WRO3VZSOeluYrHoDCiXFffZXs8Dj1ULWtw==}
-
-  hookified@1.13.0:
-    resolution: {integrity: sha512-6sPYUY8olshgM/1LDNW4QZQN0IqgKhtl/1C8koNZBJrKLBk3AZl6chQtNwpNztvfiApHMEwMHek5rv993PRbWw==}
 
   hookified@1.15.0:
     resolution: {integrity: sha512-51w+ZZGt7Zw5q7rM3nC4t3aLn/xvKDETsXqMczndvwyVQhAHfUmUuFBRFcos8Iyebtk7OAE9dL26wFNzZVVOkw==}
@@ -1866,9 +1865,6 @@ packages:
   import-fresh@3.3.0:
     resolution: {integrity: sha512-veYYhQa+D1QBKznvhUHxb8faxlrwUnxseDAbAp457E0wLNio2bOSKnjYDhMj+YiAq61xrMGhQk9iXVk5FzgQMw==}
     engines: {node: '>=6'}
-
-  import-meta-resolve@4.0.0:
-    resolution: {integrity: sha512-okYUR7ZQPH+efeuMJGlq4f8ubUgO50kByRPyt/Cy1Io4PSRsPjxME+YlVaCOx+NIToW7hCsZNFJyTPFFKepRSA==}
 
   import-meta-resolve@4.2.0:
     resolution: {integrity: sha512-Iqv2fzaTQN28s/FwZAoFq0ZSs/7hMAHJVX+w8PZl3cY19Pxk6jFFalxQoIfW2826i/fDLXv8IiEZRIT0lDuWcg==}
@@ -2884,11 +2880,11 @@ packages:
       postcss-html: ^1.0.0
       stylelint: '>=14.0.0'
 
-  stylelint-config-recess-order@7.4.0:
-    resolution: {integrity: sha512-W3G517cBaMDYRX5Fzhro4fhRkkLafLgVSPfQnhxbiLyMnbLq47RMF/NRaOJ4OQsKWYhsIHOIc2Q3VL0X3Q7oPg==}
+  stylelint-config-recess-order@7.6.0:
+    resolution: {integrity: sha512-c3LXX4a8UEtrMD/KigK4I7LFexbM2p/eSTqnix5dmmvydEqX3dzrRt981h8giSEhA51vxdCEefQc3umH60i2bA==}
     peerDependencies:
-      stylelint: '>=16.18'
-      stylelint-order: '>=7'
+      stylelint: ^16.18.0 || ^17.0.0
+      stylelint-order: ^7.0.0
 
   stylelint-config-recommended-scss@17.0.0:
     resolution: {integrity: sha512-VkVD9r7jfUT/dq3mA3/I1WXXk2U71rO5wvU2yIil9PW5o1g3UM7Xc82vHmuVJHV7Y8ok5K137fmW5u3HbhtTOA==}
@@ -3521,7 +3517,7 @@ snapshots:
       '@commitlint/config-validator': 20.0.0
       '@commitlint/types': 20.0.0
       global-directory: 4.0.1
-      import-meta-resolve: 4.0.0
+      import-meta-resolve: 4.2.0
       lodash.mergewith: 4.6.2
       resolve-from: 5.0.0
 
@@ -3530,7 +3526,7 @@ snapshots:
       '@commitlint/config-validator': 20.3.1
       '@commitlint/types': 20.3.1
       global-directory: 4.0.1
-      import-meta-resolve: 4.0.0
+      import-meta-resolve: 4.2.0
       lodash.mergewith: 4.6.2
       resolve-from: 5.0.0
 
@@ -3777,7 +3773,7 @@ snapshots:
 
   '@keyv/bigmap@1.3.0(keyv@5.5.5)':
     dependencies:
-      hashery: 1.2.0
+      hashery: 1.4.0
       hookified: 1.15.0
       keyv: 5.5.5
 
@@ -5361,7 +5357,7 @@ snapshots:
     dependencies:
       cacheable: 2.3.1
       flatted: 3.3.3
-      hookified: 1.13.0
+      hookified: 1.15.0
 
   flatted@3.2.9: {}
 
@@ -5512,10 +5508,6 @@ snapshots:
     dependencies:
       function-bind: 1.1.2
 
-  hashery@1.2.0:
-    dependencies:
-      hookified: 1.15.0
-
   hashery@1.4.0:
     dependencies:
       hookified: 1.15.0
@@ -5525,8 +5517,6 @@ snapshots:
       function-bind: 1.1.2
 
   hookable@6.0.1: {}
-
-  hookified@1.13.0: {}
 
   hookified@1.15.0: {}
 
@@ -5551,8 +5541,6 @@ snapshots:
     dependencies:
       parent-module: 1.0.1
       resolve-from: 4.0.0
-
-  import-meta-resolve@4.0.0: {}
 
   import-meta-resolve@4.2.0: {}
 
@@ -6708,7 +6696,7 @@ snapshots:
       postcss-html: 1.8.1
       stylelint: 17.0.0(typescript@5.9.3)
 
-  stylelint-config-recess-order@7.4.0(stylelint-order@7.0.1(stylelint@17.0.0(typescript@5.9.3)))(stylelint@17.0.0(typescript@5.9.3)):
+  stylelint-config-recess-order@7.6.0(stylelint-order@7.0.1(stylelint@17.0.0(typescript@5.9.3)))(stylelint@17.0.0(typescript@5.9.3)):
     dependencies:
       stylelint: 17.0.0(typescript@5.9.3)
       stylelint-order: 7.0.1(stylelint@17.0.0(typescript@5.9.3))

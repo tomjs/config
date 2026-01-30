@@ -9,7 +9,8 @@
   },
   "scripts": {
     "build": "pnpm -r --stream --filter=@tomjs/* build",
-    "lint": "eslint --fix",
+    "lint": "run-s lint:*",
+    "lint:stylelint": "stylelint \"packages/**/*.{scss,less,scss}\" --fix",
     "lint:eslint": "eslint --fix",
     "prepare": "simple-git-hooks"
   },
@@ -19,6 +20,7 @@
     "@tomjs/commitlint": "workspace:^",
     "@tomjs/eslint": "workspace:^",
     "@tomjs/prettier": "workspace:^",
+    "@tomjs/stylelint": "workspace:*",
     "@tomjs/tsconfig": "workspace:^",
     "@types/node": "^20.19.25",
     "eslint": "^9.39.2",
@@ -27,6 +29,7 @@
     "publint": "^0.3.16",
     "rimraf": "^6.1.2",
     "simple-git-hooks": "^2.13.1",
+    "stylelint": "^17.0.0",
     "tsdown": "^0.19.0",
     "typescript": "^5.9.3"
   }
