@@ -1,3 +1,7 @@
+## [8.1.0](https://github.com/tomjs/config/compare/stylelint%408.0.0...stylelint%408.1.0) (2026-01-30)
+
+- fix:  css v-bind error  [7784af5](https://github.com/tomjs/config/commit/7784af5)
+
 ## [8.0.0](https://github.com/tomjs/config/compare/stylelint%407.1.1...stylelint%408.0.0) (2026-01-16)
 
 - feat: support stylelint@17  [d46d0b7](https://github.com/tomjs/config/commit/d46d0b7)
