@@ -4,36 +4,14 @@ import { IGNORE_FILES } from './globs';
 export * from './globs';
 
 const config: Config = {
-  extends: ['stylelint-config-recommended', 'stylelint-config-recess-order'],
+  extends: [
+    'stylelint-config-recommended',
+    'stylelint-config-recess-order',
+    'stylelint-config-recommended-vue',
+  ],
   plugins: ['stylelint-order', 'stylelint-scss'],
   ignoreFiles: [...IGNORE_FILES],
   overrides: [
-    {
-      customSyntax: 'postcss-html',
-      files: ['*.(html|vue)', '**/*.(html|vue)'],
-      rules: {
-        'selector-pseudo-class-no-unknown': [
-          true,
-          {
-            ignorePseudoClasses: ['global', 'deep'],
-          },
-        ],
-        'selector-pseudo-element-no-unknown': [
-          true,
-          {
-            ignorePseudoElements: ['v-deep', 'v-global', 'v-slotted'],
-          },
-        ],
-        'declaration-property-value-no-unknown': [
-          true,
-          {
-            ignoreProperties: {
-              '/.*/': ['/^v-bind\\(/'],
-            },
-          },
-        ],
-      },
-    },
     {
       files: ['*.scss', '**/*.scss'],
       customSyntax: 'postcss-scss',
