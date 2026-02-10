@@ -1,3 +1,7 @@
+## [8.3.0](https://github.com/tomjs/config/compare/stylelint%408.2.0...stylelint%408.3.0) (2026-02-10)
+
+- feat: html lint  [30d501d](https://github.com/tomjs/config/commit/30d501d)
+
 ## [8.2.0](https://github.com/tomjs/config/compare/stylelint%408.1.0...stylelint%408.2.0) (2026-01-31)
 
 - feat: change  [7435fd5](https://github.com/tomjs/config/commit/7435fd5)
