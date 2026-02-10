@@ -10,7 +10,7 @@
   "scripts": {
     "build": "pnpm -r --stream --filter=@tomjs/* build",
     "lint": "run-s lint:*",
-    "lint:stylelint": "stylelint \"packages/**/*.{scss,less,scss}\" --fix",
+    "lint:stylelint": "stylelint \"packages/**/*.{scss,scss,vue,html}\" --fix",
     "lint:eslint": "eslint --fix",
     "prepare": "simple-git-hooks"
   },

@@ -7,11 +7,17 @@ const config: Config = {
   extends: [
     'stylelint-config-recommended',
     'stylelint-config-recess-order',
-    'stylelint-config-recommended-vue',
   ],
   plugins: ['stylelint-order', 'stylelint-scss'],
   ignoreFiles: [...IGNORE_FILES],
   overrides: [
+    {
+      customSyntax: 'postcss-html',
+      files: ['*.(html|vue)', '**/*.(html|vue)'],
+      extends: [
+        'stylelint-config-recommended-vue',
+      ],
+    },
     {
       files: ['*.scss', '**/*.scss'],
       customSyntax: 'postcss-scss',
