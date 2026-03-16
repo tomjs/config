@@ -1,3 +1,7 @@
+## [7.1.0](https://github.com/tomjs/config/compare/eslint%407.0.0...eslint%407.1.0) (2026-03-16)
+
+- feat: support antfu@7.7  [3d9d2a3](https://github.com/tomjs/config/commit/3d9d2a3)
+
 ## [7.0.0](https://github.com/tomjs/config/compare/eslint%406.5.0...eslint%407.0.0) (2026-01-16)
 
 - feat: support antfu v7  [6e11b4e](https://github.com/tomjs/config/commit/6e11b4e)
