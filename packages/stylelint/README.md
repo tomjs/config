@@ -22,7 +22,7 @@ export default {
 };
 ```
 
-#### Make configuration
+### Make configuration
 
 ```bash
 pnpm add --save-peer stylelint

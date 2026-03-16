@@ -14,7 +14,7 @@ export * from './types';
  * @returns The merged ESLint configurations.
  */
 export function defineConfig(
-  options?: OptionsConfig & Omit<TypedFlatConfigItem, 'files'>,
+  options?: OptionsConfig & Omit<TypedFlatConfigItem, 'files' | 'ignores'>,
   ...userConfigs: Awaitable<TypedFlatConfigItem | TypedFlatConfigItem[] | FlatConfigComposer<any, any> | Linter.Config[]>[]
 ): FlatConfigComposer<TypedFlatConfigItem, ConfigNames> {
   const opts = merge({
@@ -24,15 +24,18 @@ export function defineConfig(
     formatters: true,
     rules: {
       'n/prefer-global/process': 'off',
-
       'no-console': 'off',
       'no-debugger': 'warn',
 
       'antfu/no-top-level-await': 'off',
       'jsonc/sort-array-values': 'off',
       'pnpm/yaml-enforce-settings': 'off',
-
       'ts/ban-ts-comment': 'off',
+      // markdown
+      'markdown/fenced-code-language': 'off',
+      // e18e
+      'e18e/prefer-static-regex': 'off',
+      'e18e/prefer-spread-syntax': 'off',
     },
   } as OptionsConfig & Omit<TypedFlatConfigItem, 'files'>, options);
 
