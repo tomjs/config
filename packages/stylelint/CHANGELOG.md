@@ -1,3 +1,8 @@
+## [8.3.1](https://github.com/tomjs/config/compare/stylelint%408.3.0...stylelint%408.3.1) (2026-08-16)
+
+- chore: change email  [a3c4c94](https://github.com/tomjs/config/commit/a3c4c94)
+- feat: support antfu@7.7  [3d9d2a3](https://github.com/tomjs/config/commit/3d9d2a3)
+
 ## [8.3.0](https://github.com/tomjs/config/compare/stylelint%408.2.0...stylelint%408.3.0) (2026-02-10)
 
 - feat: html lint  [30d501d](https://github.com/tomjs/config/commit/30d501d)

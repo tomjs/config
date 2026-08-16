@@ -1,3 +1,7 @@
+## [2.1.1](https://github.com/tomjs/config/compare/prettier%402.1.0...prettier%402.1.1) (2026-08-16)
+
+- chore: change email  [a3c4c94](https://github.com/tomjs/config/commit/a3c4c94)
+
 ## [2.1.0](https://github.com/tomjs/config/compare/prettier%402.0.0...prettier%402.1.0) (2025-11-16)
 
 - chore: update tsdown  [a539442](https://github.com/tomjs/config/commit/a539442)

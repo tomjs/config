@@ -1,3 +1,7 @@
+## [7.1.1](https://github.com/tomjs/config/compare/eslint%407.1.0...eslint%407.1.1) (2026-08-16)
+
+- chore: change email  [a3c4c94](https://github.com/tomjs/config/commit/a3c4c94)
+
 ## [7.1.0](https://github.com/tomjs/config/compare/eslint%407.0.0...eslint%407.1.0) (2026-03-16)
 
 - feat: support antfu@7.7  [3d9d2a3](https://github.com/tomjs/config/commit/3d9d2a3)

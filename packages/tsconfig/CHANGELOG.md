@@ -1,3 +1,7 @@
+## [3.2.1](https://github.com/tomjs/config/compare/tsconfig%403.2.0...tsconfig%403.2.1) (2026-08-16)
+
+- chore: change email  [a3c4c94](https://github.com/tomjs/config/commit/a3c4c94)
+
 ## [3.2.0](https://github.com/tomjs/config/compare/tsconfig%403.1.0...tsconfig%403.2.0) (2026-01-06)
 
 - feat: turn off noUncheckedIndexedAccess  [d0512be](https://github.com/tomjs/config/commit/d0512be)

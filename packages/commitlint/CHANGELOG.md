@@ -1,3 +1,8 @@
+## [5.0.1](https://github.com/tomjs/config/compare/commitlint%405.0.0...commitlint%405.0.1) (2026-08-16)
+
+- chore: change email  [a3c4c94](https://github.com/tomjs/config/commit/a3c4c94)
+- feat: add uniapp stylelint config and update deps  [dac7ff7](https://github.com/tomjs/config/commit/dac7ff7)
+
 ## [5.0.0](https://github.com/tomjs/config/compare/commitlint%404.0.0...commitlint%405.0.0) (2025-11-16)
 
 - chore: update commitlint deps  [bb92dfa](https://github.com/tomjs/config/commit/bb92dfa)
