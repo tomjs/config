@@ -4,7 +4,7 @@
   "description": "typescript config for tomjs",
   "author": {
     "name": "Tom Gao",
-    "email": "tom@tomgao.cc"
+    "email": "tom@tomgao.cn"
   },
   "license": "MIT",
   "homepage": "https://github.com/tomjs/config/tree/main/packages/tsconfig#readme",
